@@ -101,6 +101,46 @@
       "1.0": "config/the_vault/gen/1.0/palettes/universal_gingerbread.json"
     },
     {
+      "id": "the_vault:universal_mushroom",
+      "name": "Universal Mushroom",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_mushroom.json"
+    },
+    {
+      "id": "the_vault:universal_easter_pastel",
+      "name": "Universal Easter Pastel",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_easter_pastel.json"
+    },
+    {
+      "id": "the_vault:universal_easter_egg",
+      "name": "Universal Easter Egg",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_easter_egg.json"
+    },
+    {
+      "id": "the_vault:universal_shipwreck",
+      "name": "Universal Shipwreck",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_shipwreck.json"
+    },
+    {
+      "id": "the_vault:universal_flooded",
+      "name": "Universal Flooded",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_flooded.json"
+    },
+    {
+      "id": "the_vault:universal_fairy_ring",
+      "name": "Universal Fairy Ring",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_fairy_ring.json"
+    },
+    {
+      "id": "the_vault:universal_poison",
+      "name": "Universal Poison",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_poison.json"
+    },
+    {
+      "id": "the_vault:universal_blood_moon",
+      "name": "Blood Moon",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_blood_moon.json"
+    },
+    {
       "id": "the_vault:arena/classic",
       "name": "Arena Classic",
       "1.0": "config/the_vault/gen/1.0/palettes/arena/classic.json"
@@ -421,6 +461,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/omega_digsite/base.json"
     },
     {
+      "id": "the_vault:omega_digsite/base2",
+      "name": "Omega Digsite Base 2",
+      "1.0": "config/the_vault/gen/1.0/palettes/omega_digsite/base2.json"
+    },
+    {
       "id": "the_vault:vendor/base",
       "name": "Omega Vendor Base",
       "1.0": "config/the_vault/gen/1.0/palettes/vendor/base.json"
@@ -621,6 +666,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_void.json"
     },
     {
+      "id": "the_vault:generic/ore_placeholder_blood_moon",
+      "name": "Ore Placeholder Blood Moon",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_blood_moon.json"
+    },
+    {
       "id": "the_vault:raw/farm/base",
       "name": "Base",
       "1.0": "config/the_vault/gen/1.0/palettes/raw/farm/base.json"
@@ -721,6 +771,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_alternate_void.json"
     },
     {
+      "id": "the_vault:generic/ore_placeholder_alternate_blood_moon",
+      "name": "Ore Placeholder Alternate Blood Moon",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_alternate_blood_moon.json"
+    },
+    {
       "id": "the_vault:generic/air_to_cave_air",
       "name": "Air to Cave Air",
       "1.0": "config/the_vault/gen/1.0/palettes/generic/air_to_cave_air.json"
@@ -804,6 +859,196 @@
       "id": "the_vault:generic/hidden_placeholder",
       "name": "Hidden Placeholder",
       "1.0": "config/the_vault/gen/1.0/palettes/generic/hidden_placeholder.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/assassin_mobs",
+      "name": "Assasin Mobs",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/assassin_mobs.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/group_settings",
+      "name": "Group Settings",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/group_settings.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/beach_mobs",
+      "name": "Beach Mobs",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/beach_mobs.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/mushroom_mobs",
+      "name": "Mushroom Mobs",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/mushroom_mobs.json"
+    },
+    {
+      "id": "the_vault:universal_white",
+      "name": "Universal White",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_white.json"
+    },
+    {
+      "id": "the_vault:generic/ore_placeholder_alternate_white",
+      "name": "Ore Placeholder Alternate White",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_alternate_white.json"
+    },
+    {
+      "id": "the_vault:generic/ore_placeholder_white",
+      "name": "Ore Placeholder White",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_white.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/easter_mobs",
+      "name": "Easter Mobs",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/easter_mobs.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/white_mobs",
+      "name": "White Mobs",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/white_mobs.json"
+    },
+    {
+      "id": "the_vault:universal_haunted",
+      "name": "Universal Haunted",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_haunted.json"
+    },
+    {
+      "id": "the_vault:generic/ice_elite_spawners",
+      "name": "Ice Elite Spawners",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/ice_elite_spawners.json"
+    },
+    {
+      "id": "the_vault:generic/nether_elite_spawners",
+      "name": "Nether Elite Spawners",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/nether_elite_spawners.json"
+    },
+    {
+      "id": "the_vault:universal_sea_floor",
+      "name": "Universal Sea Floor",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_sea_floor.json"
+    },
+    {
+      "id": "the_vault:trove/base",
+      "name": "Trove",
+      "1.0": "config/the_vault/gen/1.0/palettes/trove/base.json"
+    },
+    {
+      "id": "the_vault:dungeon_rooms/dungeon_rooms",
+      "name": "Dungeon Rooms",
+      "1.0": "config/the_vault/gen/1.0/palettes/dungeon_rooms/dungeon_rooms.json"
+    },
+    {
+      "id": "the_vault:generic/dungeon_door_placeholder",
+      "name": "Dungeon Door Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/dungeon_door_placeholder.json"
+    },
+    {
+      "id": "the_vault:dungeon_rooms/living_chest_placeholder",
+      "name": "Dungeon Living Chest Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/dungeon_rooms/living_chest_placeholder.json"
+    },
+    {
+      "id": "the_vault:dungeon_rooms/gilded_chest_placeholder",
+      "name": "Dungeon Gilded Chest Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/dungeon_rooms/gilded_chest_placeholder.json"
+    },
+    {
+      "id": "the_vault:dungeon_rooms/ornate_chest_placeholder",
+      "name": "Dungeon Ornate Chest Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/dungeon_rooms/ornate_chest_placeholder.json"
+    },
+    {
+      "id": "the_vault:dungeon_rooms/coin_stack_placeholder",
+      "name": "Dungeon Coin Stack Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/dungeon_rooms/coin_stack_placeholder.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/spider_dungeon",
+      "name": "Spider Dungeon",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/spider_dungeon.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/skeleton_dungeon",
+      "name": "Skeleton Dungeon",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/skeleton_dungeon.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/pillager_dungeon",
+      "name": "Pillager Dungeon",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/pillager_dungeon.json"
+    },
+    {
+      "id": "the_vault:generic/dungeon_discoverable_remove",
+      "name": "Dungeon Discoverable Remove",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/dungeon_discoverable_remove.json"
+    },
+    {
+      "id": "the_vault:raw/dungeon_door_placeholder",
+      "name": "Raw Dungeon Door Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/dungeon_door_placeholder.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/dungeon_settings",
+      "name": "Dungeon Settings",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/dungeon_settings.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/piglin_dungeon",
+      "name": "Piglin Dungeon",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/piglin_dungeon.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/witch_dungeon",
+      "name": "Witch Dungeon",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/witch_dungeon.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/zombie_dungeon",
+      "name": "Zombie Dungeon",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/zombie_dungeon.json"
+    },
+    {
+      "id": "the_vault:dungeon_rooms/dungeon_discoverable_small",
+      "name": "Dungeon Discoverable Small",
+      "1.0": "config/the_vault/gen/1.0/palettes/dungeon_rooms/dungeon_discoverable_small.json"
+    },
+    {
+      "id": "the_vault:dungeon_rooms/dungeon_discoverable_medium",
+      "name": "Dungeon Discoverable Medium",
+      "1.0": "config/the_vault/gen/1.0/palettes/dungeon_rooms/dungeon_discoverable_medium.json"
+    },
+    {
+      "id": "the_vault:dungeon_rooms/dungeon_discoverable_large",
+      "name": "Dungeon Discoverable Large",
+      "1.0": "config/the_vault/gen/1.0/palettes/dungeon_rooms/dungeon_discoverable_large.json"
+    },
+    {
+      "id": "the_vault:dungeon_rooms/difficulty",
+      "name": "Dungeon Difficulty",
+      "1.0": "config/the_vault/gen/1.0/palettes/dungeon_rooms/difficulty.json"
+    },
+    {
+      "id": "the_vault:dungeon_rooms/normal",
+      "name": "Dungeon Normal",
+      "1.0": "config/the_vault/gen/1.0/palettes/dungeon_rooms/normal.json"
+    },
+    {
+      "id": "the_vault:dungeon_rooms/hard",
+      "name": "Dungeon Hard",
+      "1.0": "config/the_vault/gen/1.0/palettes/dungeon_rooms/hard.json"
+    },
+    {
+      "id": "the_vault:dungeon_rooms/impossible",
+      "name": "Dungeon Impossible",
+      "1.0": "config/the_vault/gen/1.0/palettes/dungeon_rooms/impossible.json"
+    },
+    {
+      "id": "the_vault:dungeon_rooms/challenging",
+      "name": "Dungeon Challening",
+      "1.0": "config/the_vault/gen/1.0/palettes/dungeon_rooms/challenging.json"
+    },
+    {
+      "id": "the_vault:dungeon_rooms/extreme",
+      "name": "Dungeon Extreme",
+      "1.0": "config/the_vault/gen/1.0/palettes/dungeon_rooms/extreme.json"
     }
   ]
 }

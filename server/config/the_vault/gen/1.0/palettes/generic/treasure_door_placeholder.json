@@ -23,6 +23,10 @@
             }
           }
         ]
+      },
+      {
+          "type": "reference",
+          "id": "the_vault:generic/dungeon_door_placeholder"
       }
     ]
   }

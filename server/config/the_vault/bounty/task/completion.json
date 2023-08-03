@@ -3,7 +3,6 @@
     "0": {
       "pool": [
         {
-          "rewardPool": "common",
           "value": {
             "value": "vault",
             "amount": {
@@ -12,7 +11,8 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": false
+            "vaultOnly": false,
+            "rewardPool": "common"
           },
           "weight": 10
         }
@@ -21,7 +21,6 @@
     "10": {
       "pool": [
         {
-          "rewardPool": "common",
           "value": {
             "value": "vault",
             "amount": {
@@ -30,12 +29,12 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": false
+            "vaultOnly": false,
+            "rewardPool": "common"
           },
           "weight": 6
         },
         {
-          "rewardPool": "common",
           "value": {
             "value": "monolith",
             "amount": {
@@ -44,12 +43,12 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": false
+            "vaultOnly": false,
+            "rewardPool": "common"
           },
           "weight": 10
         },
         {
-          "rewardPool": "common",
           "value": {
             "value": "elixir",
             "amount": {
@@ -58,7 +57,8 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": false
+            "vaultOnly": false,
+            "rewardPool": "common"
           },
           "weight": 10
         }
@@ -67,7 +67,6 @@
     "20": {
       "pool": [
         {
-          "rewardPool": "common",
           "value": {
             "value": "vault",
             "amount": {
@@ -76,12 +75,12 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": false
+            "vaultOnly": false,
+            "rewardPool": "common"
           },
           "weight": 8
         },
         {
-          "rewardPool": "common",
           "value": {
             "value": "monolith",
             "amount": {
@@ -90,12 +89,12 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": false
+            "vaultOnly": false,
+            "rewardPool": "common"
           },
           "weight": 10
         },
         {
-          "rewardPool": "common",
           "value": {
             "value": "elixir",
             "amount": {
@@ -104,12 +103,12 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": false
+            "vaultOnly": false,
+            "rewardPool": "common"
           },
           "weight": 10
         },
         {
-          "rewardPool": "common",
           "value": {
             "value": "scavenger",
             "amount": {
@@ -118,21 +117,22 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": false
+            "vaultOnly": false,
+            "rewardPool": "common"
           },
           "weight": 10
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "scavenger",
             "amount": {
-              "min": 1,
+              "min": 2,
               "max": 2
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": false
+            "vaultOnly": false,
+            "rewardPool": "rare"
           },
           "weight": 1
         }
@@ -141,7 +141,6 @@
     "50": {
       "pool": [
         {
-          "rewardPool": "common",
           "value": {
             "value": "vault",
             "amount": {
@@ -150,12 +149,12 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": false
+            "vaultOnly": false,
+            "rewardPool": "common"
           },
           "weight": 12
         },
         {
-          "rewardPool": "common",
           "value": {
             "value": "cake",
             "amount": {
@@ -164,12 +163,12 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": false
+            "vaultOnly": false,
+            "rewardPool": "common"
           },
           "weight": 4
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "cake",
             "amount": {
@@ -178,12 +177,12 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": false
+            "vaultOnly": false,
+            "rewardPool": "rare"
           },
           "weight": 1
         },
         {
-          "rewardPool": "common",
           "value": {
             "value": "scavenger",
             "amount": {
@@ -192,12 +191,26 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": false
+            "vaultOnly": false,
+            "rewardPool": "common"
           },
           "weight": 20
         },
         {
-          "rewardPool": "common",
+          "value": {
+            "value": "scavenger",
+            "amount": {
+              "min": 2,
+              "max": 3
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": false,
+            "rewardPool": "rare"
+          },
+          "weight": 4
+        },
+        {
           "value": {
             "value": "monolith",
             "amount": {
@@ -206,12 +219,12 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": false
+            "vaultOnly": false,
+            "rewardPool": "common"
           },
           "weight": 20
         },
         {
-          "rewardPool": "common",
           "value": {
             "value": "elixir",
             "amount": {
@@ -220,12 +233,12 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": false
+            "vaultOnly": false,
+            "rewardPool": "common"
           },
           "weight": 20
         },
         {
-          "rewardPool": "common",
           "value": {
             "value": "boss",
             "amount": {
@@ -234,21 +247,22 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": false
+            "vaultOnly": false,
+            "rewardPool": "common"
           },
           "weight": 20
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "boss",
             "amount": {
               "min": 2,
-              "max": 2
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": false
+            "vaultOnly": false,
+            "rewardPool": "rare"
           },
           "weight": 2
         }

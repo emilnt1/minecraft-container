@@ -57,15 +57,15 @@
             "type": "weighted_target",
             "target": "minecraft:stone_slab",
             "output": {
-                "botania:red_quartz_slab": 1,
-                "minecraft:smooth_quartz_slab": 1
+                "minecraft:crimson_slab": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cobblestone_slab",
             "output": {
-                "minecraft:crimson_slab": 1
+                "botania:red_quartz_slab": 1,
+                "minecraft:smooth_quartz_slab": 1
             }
         },
         {

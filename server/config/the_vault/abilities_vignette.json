@@ -5,17 +5,12 @@
     "alpha": 0.125,
     "style": "vignette"
   },
-  "TANK": {
+  "EMPOWER": {
     "color": "#FFFFFF",
     "alpha": 0.125,
     "style": "vignette"
   },
-  "TANK_PROJECTILE": {
-    "color": "#FFFFFF",
-    "alpha": 0.125,
-    "style": "vignette"
-  },
-  "TANK_REFLECT": {
+  "EMPOWER_ICE_ARMOUR": {
     "color": "#FFFFFF",
     "alpha": 0.125,
     "style": "vignette"
@@ -26,6 +21,11 @@
     "style": "vignette"
   },
   "MANA_SHIELD": {
+    "color": "#00FFFF",
+    "alpha": 0.125,
+    "style": "vignette"
+  },
+  "MANA_SHIELD_RETRIBUTION": {
     "color": "#00FFFF",
     "alpha": 0.125,
     "style": "vignette"
@@ -55,9 +55,29 @@
     "alpha": 0.75,
     "style": "vignette"
   },
+  "STONEFALL_SHOCKWAVE": {
+    "color": "#FFFFFF",
+    "alpha": 0.75,
+    "style": "vignette"
+  },
   "RAGE": {
     "color": "#FF0000",
     "alpha": 0.5,
+    "style": "vignette"
+  },
+  "SHELL": {
+    "color": "#FFFFFF",
+    "alpha": 0.125,
+    "style": "vignette"
+  },
+  "SHELL_PORCUPINE": {
+    "color": "#FFFFFF",
+    "alpha": 0.125,
+    "style": "vignette"
+  },
+  "SHELL_QUILL": {
+    "color": "#FFFFFF",
+    "alpha": 0.125,
     "style": "vignette"
   }
 }

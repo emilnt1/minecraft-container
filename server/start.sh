@@ -16,7 +16,7 @@ ARGS="$JVM_OPTS"
 JAVA="java"
 FABRIC_INSTALLER_VERSION="0.11.0"
 QUILT_INSTALLER_VERSION="0.4.3"
-MINECRAFT_SERVER_URL="https://launcher.mojang.com/v1/objects/1b557e7b033b583cd9f66746b7a9ab1ec1673ced/server.jar"
+MINECRAFT_SERVER_URL="https://launcher.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar"
 
 # Variables with do_not_manually_edit are set automatically during script execution,
 # so manually editing them will have no effect, as they will be overridden.

@@ -105,7 +105,9 @@
                 "weight": 4,
                 "item": {
                   "id": "minecraft:enchanted_book",
-                  "nbt": "{StoredEnchantments:[{id:unbreaking,lvl:1}]}",
+                  "nbt": {
+                    "StoredEnchantments": [{"id": "minecraft:unbreaking", "lvl": 1}]
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,
@@ -116,8 +118,10 @@
               {
                 "weight": 4,
                 "item": {
-                    "id": "minecraft:enchanted_book",
-                    "nbt": "{StoredEnchantments:[{id:efficiency,lvl:2}]}",
+                  "id": "minecraft:enchanted_book",
+                  "nbt": {
+                    "StoredEnchantments": [{"id": "minecraft:efficiency", "lvl": 2}]
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,
@@ -128,8 +132,10 @@
               {
                 "weight": 4,
                 "item": {
-                    "id": "minecraft:enchanted_book",
-                    "nbt": "{StoredEnchantments:[{id:fortune,lvl:1}]}",
+                  "id": "minecraft:enchanted_book",
+                  "nbt": {
+                    "StoredEnchantments": [{"id": "minecraft:fortune", "lvl": 1}]
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,
@@ -145,7 +151,9 @@
                 "weight": 2,
                 "item": {
                   "id": "minecraft:enchanted_book",
-                  "nbt": "{StoredEnchantments:[{id:efficiency,lvl:3}]}",
+                  "nbt": {
+                    "StoredEnchantments": [{"id": "minecraft:efficiency", "lvl": 3}]
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,
@@ -156,7 +164,9 @@
                 "weight": 2,
                 "item": {
                   "id": "minecraft:enchanted_book",
-                  "nbt": "{StoredEnchantments:[{id:fortune,lvl:2}]}",
+                  "nbt": {
+                    "StoredEnchantments": [{"id": "minecraft:fortune", "lvl": 2}]
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,
@@ -202,7 +212,9 @@
                 "weight": 2,
                 "item": {
                   "id": "minecraft:enchanted_book",
-                  "nbt": "{StoredEnchantments:[{id:silk_touch,lvl:1}]}",
+                  "nbt": {
+                    "StoredEnchantments": [{"id": "minecraft:silk_touch", "lvl": 1}]
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,

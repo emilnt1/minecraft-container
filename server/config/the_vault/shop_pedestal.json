@@ -85,7 +85,19 @@
             "MIN_COST": 162,
             "MAX_COST": 512
           },
-          "weight": 80
+          "weight": 65
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:wand",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\"}"
+            },
+            "CURRENCY": "the_vault:vault_bronze",
+            "MIN_COST": 162,
+            "MAX_COST": 512
+          },
+          "weight": 65
         },
         {
           "value": {

@@ -40,3 +40,4 @@ craftingTable.addShaped("darkutils_damage_plate_player", <item:darkutils:damage_
     [<item:minecraft:air>, <item:the_vault:echo_pog>, <item:minecraft:air>],
     [<item:the_vault:black_chromatic_steel_ingot>, <item:darkutils:damage_plate>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
+

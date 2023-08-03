@@ -26,7 +26,7 @@
           "value": {
             "type": "the_vault:vault_fighter_1"
           },
-          "weight": 2
+          "weight": 1
         }
       ]
     },
@@ -44,7 +44,7 @@
           "value": {
             "type": "the_vault:vault_fighter_2"
           },
-          "weight": 2
+          "weight": 1
         }
       ]
     }

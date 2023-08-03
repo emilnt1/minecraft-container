@@ -64,7 +64,8 @@
       "the_vault:gear/armor/leprechaun",
       "the_vault:gear/armor/paladin",
       "the_vault:gear/armor/bunny_guardian",
-      "the_vault:gear/armor/pirate"
+      "the_vault:gear/armor/pirate",
+      "the_vault:gear/armor/mushroom"
       
     ],
     "UNIQUE": [
@@ -101,7 +102,12 @@
       "the_vault:gear/armor/armour_idona",
       "the_vault:gear/armor/armour_velara",
       "the_vault:gear/armor/armour_tenos",
-      "the_vault:gear/armor/armour_wendarr"
+      "the_vault:gear/armor/armour_wendarr",
+      "the_vault:gear/armor/penguin",
+      "the_vault:gear/armor/sweetheart",
+      "the_vault:gear/armor/jester",
+      "the_vault:gear/armor/scout",
+      "the_vault:gear/armor/bee_knight"
     ]
   },
   "SWORD_MODEL_ROLLS": {
@@ -134,7 +140,8 @@
     "OMEGA": [
       "the_vault:gear/sword/sword_7",
       "the_vault:gear/sword/douwswords_swousky",
-      "the_vault:gear/sword/kindled_blade"
+      "the_vault:gear/sword/kindled_blade",
+      "the_vault:gear/sword/cutlass"
     ],
     "UNIQUE": [
       "the_vault:gear/sword/chainsword",
@@ -152,7 +159,8 @@
       "the_vault:gear/sword/ring_blade",
       "the_vault:gear/sword/glorem_glipsum",
       "the_vault:gear/sword/bamboo",
-      "the_vault:gear/sword/idonas_sword"
+      "the_vault:gear/sword/idonas_sword",
+      "the_vault:gear/sword/honey_wand"
       
     ]
   },
@@ -209,7 +217,8 @@
     "RARE": [
       "the_vault:gear/shield/coconut",
       "the_vault:gear/shield/sculk",
-      "the_vault:gear/shield/flowah"
+      "the_vault:gear/shield/flowah",
+      "the_vault:gear/shield/lifebuoy"
       
     ],
     "EPIC": [
@@ -225,7 +234,35 @@
       "the_vault:gear/shield/bell",
       "the_vault:gear/shield/nou",
       "the_vault:gear/shield/absolutebinner",
-      "the_vault:gear/shield/turtle"
+      "the_vault:gear/shield/heart_chocolate",
+      "the_vault:gear/shield/heart_crystal",
+      "the_vault:gear/shield/turtle",
+      "the_vault:gear/shield/honey_drone"
+    ]
+  },
+  "WAND_MODEL_ROLLS": {
+    "SCRAPPY": [
+      "the_vault:gear/wand/wooden"
+    ],
+    "COMMON": [
+      "the_vault:gear/wand/mage",
+      "the_vault:gear/wand/twig"
+    ],
+    "RARE": [
+      "the_vault:gear/wand/archmage",
+      "the_vault:gear/wand/lunar"
+    ],
+    "EPIC": [
+      "the_vault:gear/wand/ender",
+      "the_vault:gear/wand/druid",
+      "the_vault:gear/wand/gorgeous"
+    ],
+    "OMEGA": [
+      "the_vault:gear/wand/master",
+      "the_vault:gear/wand/starlight",
+      "the_vault:gear/wand/iskallium"
+    ],
+    "UNIQUE": [
     ]
   }
 }

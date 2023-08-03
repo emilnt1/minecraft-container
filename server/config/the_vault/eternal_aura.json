@@ -2,12 +2,9 @@
   "EFFECT_AURAS": [
     {
       "effect": {
+        "type": "effect",
         "effect": "minecraft:regeneration",
-        "amplifier": 1,
-        "type": "icon_only",
-        "operator": "add",
-        "cost": 0,
-        "levelRequirement": 0
+        "amplifier": 0
       },
       "name": "Regeneration",
       "displayName": "Regeneration",
@@ -17,12 +14,9 @@
     },
     {
       "effect": {
+        "type": "effect",
         "effect": "minecraft:haste",
-        "amplifier": 1,
-        "type": "icon_only",
-        "operator": "add",
-        "cost": 0,
-        "levelRequirement": 0
+        "amplifier": 0
       },
       "name": "Haste1",
       "displayName": "Haste 1",
@@ -32,12 +26,9 @@
     },
     {
       "effect": {
+        "type": "effect",
         "effect": "minecraft:haste",
-        "amplifier": 2,
-        "type": "icon_only",
-        "operator": "add",
-        "cost": 0,
-        "levelRequirement": 0
+        "amplifier": 1
       },
       "name": "Haste2",
       "displayName": "Haste 2",
@@ -47,12 +38,9 @@
     },
     {
       "effect": {
+        "type": "effect",
         "effect": "minecraft:speed",
-        "amplifier": 1,
-        "type": "icon_only",
-        "operator": "add",
-        "cost": 0,
-        "levelRequirement": 0
+        "amplifier": 0
       },
       "name": "Speed1",
       "displayName": "Speed 1",
@@ -62,12 +50,9 @@
     },
     {
       "effect": {
+        "type": "effect",
         "effect": "minecraft:speed",
-        "amplifier": 2,
-        "type": "icon_only",
-        "operator": "add",
-        "cost": 0,
-        "levelRequirement": 0
+        "amplifier": 1
       },
       "name": "Speed2",
       "displayName": "Speed 2",
@@ -77,12 +62,9 @@
     },
     {
       "effect": {
+        "type": "effect",
         "effect": "minecraft:strength",
-        "amplifier": 1,
-        "type": "icon_only",
-        "operator": "add",
-        "cost": 0,
-        "levelRequirement": 0
+        "amplifier": 0
       },
       "name": "Strength1",
       "displayName": "Strength 1",
@@ -92,12 +74,9 @@
     },
     {
       "effect": {
+        "type": "effect",
         "effect": "minecraft:strength",
-        "amplifier": 1,
-        "type": "icon_only",
-        "operator": "add",
-        "cost": 0,
-        "levelRequirement": 0
+        "amplifier": 1
       },
       "name": "Strength2",
       "displayName": "Strength 2",
@@ -107,12 +86,9 @@
     },
     {
       "effect": {
+        "type": "effect",
         "effect": "minecraft:saturation",
-        "amplifier": 1,
-        "type": "icon_only",
-        "operator": "add",
-        "cost": 0,
-        "levelRequirement": 0
+        "amplifier": 1
       },
       "name": "Saturation",
       "displayName": "Saturation",
@@ -146,7 +122,7 @@
   "MOB_EFFECT_AURAS": [
     {
       "effect": "minecraft:slowness",
-      "amplifier": 2,
+      "amplifier": 0,
       "name": "Mob_Slowness",
       "displayName": "Slowness",
       "description": "Applies Slowness 3 to enemies in its radius",

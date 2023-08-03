@@ -1920,6 +1920,14 @@
       }
     },
     {
+      "id": "the_vault:vault/rooms/omega/omega_digsite2",
+      "name": "Omega Digsite 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/omega_digsite2.nbt"
+      }
+    },
+    {
       "id": "the_vault:vault/rooms/omega/painting1",
       "name": "Omega Painting 1",
       "1.0": {
@@ -3548,6 +3556,30 @@
       "1.0": {
         "type": "structure",
         "path": "config/the_vault/gen/1.0/structures/vault/decor/dragon/corner_spawner1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/corner_spawner2",
+      "name": "Corner Spawner 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/dragon/corner_spawner2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/corner_spawner3",
+      "name": "Corner Spawner 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/dragon/corner_spawner3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/corner_spawner4",
+      "name": "Corner Spawner 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/dragon/corner_spawner4.nbt"
       }
     },
     {
@@ -7100,6 +7132,462 @@
       "1.0": {
         "type": "structure",
         "path": "config/the_vault/gen/1.0/structures/vault/decor/factory/bucket_loot1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb_1a",
+      "name": "Catacomb 1a",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/catacomb_1a.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb_1b",
+      "name": "Catacomb 1b",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/catacomb_1b.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb_2a",
+      "name": "Catacomb 2a",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/catacomb_2a.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb_2b",
+      "name": "Catacomb 2b",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/catacomb_2b.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb_3a",
+      "name": "Catacomb 3a",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/catacomb_3a.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb_3b",
+      "name": "Catacomb 3b",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/catacomb_3b.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb_4a",
+      "name": "Catacomb 4a",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/catacomb_4a.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb_4b",
+      "name": "Catacomb 4b",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/catacomb_4b.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb_1c",
+      "name": "Catacomb 1c",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/catacomb_1c.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb_1d",
+      "name": "Catacomb 1d",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/catacomb_1d.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb_2c",
+      "name": "Catacomb 2c",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/catacomb_2c.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb_2d",
+      "name": "Catacomb 2d",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/catacomb_2d.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb_3c",
+      "name": "Catacomb 3c",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/catacomb_3c.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb_3d",
+      "name": "Catacomb 3d",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/catacomb_3d.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb_4c",
+      "name": "Catacomb 4c",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/catacomb_4c.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb_4d",
+      "name": "Catacomb 4d",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/village/catacomb_4d.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/7x7/hole_a1",
+      "name": "Ore Hole Alt 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/7x7/hole_a1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/7x7/hole_a2",
+      "name": "Ore Hole Alt 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/7x7/hole_a2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/7x7/hole_a3",
+      "name": "Ore Hole Alt 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/7x7/hole_a3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/7x7/hole_a4",
+      "name": "Ore Hole Alt 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/7x7/hole_a4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/7x7/hole_a5",
+      "name": "Ore Hole Alt 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/7x7/hole_a5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/7x7/standing_a1",
+      "name": "Ore Standing Alt 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/7x7/standing_a1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/7x7/standing_a2",
+      "name": "Ore Standing Alt 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/7x7/standing_a2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/7x7/standing_a3",
+      "name": "Ore Standing Alt 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/7x7/standing_a3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/7x7/standing_a4",
+      "name": "Ore Standing Alt 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/7x7/standing_a4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/7x7/standing_a5",
+      "name": "Ore Standing Alt 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/7x7/standing_a5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/9x9/hole_a1",
+      "name": "Ore Hole Alt 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/9x9/hole_a1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/9x9/hole_a2",
+      "name": "Ore Hole Alt 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/9x9/hole_a2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/9x9/hole_a3",
+      "name": "Ore Hole Alt 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/9x9/hole_a3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/9x9/hole_a4",
+      "name": "Ore Hole Alt 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/9x9/hole_a4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/9x9/hole_a5",
+      "name": "Ore Hole Alt 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/9x9/hole_a5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/9x9/standing_a1",
+      "name": "Ore Standing Alt 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/9x9/standing_a1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/9x9/standing_a2",
+      "name": "Ore Standing Alt 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/9x9/standing_a2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/9x9/standing_a3",
+      "name": "Ore Standing Alt 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/9x9/standing_a3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/9x9/standing_a4",
+      "name": "Ore Standing Alt 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/9x9/standing_a4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/generic/ore/9x9/standing_a5",
+      "name": "Ore Standing Alt 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/generic/ore/9x9/standing_a5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/trove",
+      "name": "Trove",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/trove.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/pillager_large",
+      "name": "Pillager Large",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/pillager_large.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/pillager_medium",
+      "name": "Pillager Medium",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/pillager_medium.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/pillager_small",
+      "name": "Pillager Small",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/pillager_small.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/spider_large",
+      "name": "Spider Large",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/spider_large.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/spider_large2",
+      "name": "Spider Large 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/spider_large2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/spider_large3",
+      "name": "Spider Large 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/spider_large3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/spider_medium",
+      "name": "Spider Medium",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/spider_medium.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/spider_small",
+      "name": "Spider Small",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/spider_small.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/skeleton_large",
+      "name": "Skeleton Large",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/skeleton_large.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/skeleton_medium",
+      "name": "Skeleton Medium",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/skeleton_medium.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/skeleton_small",
+      "name": "Skeleton Small",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/skeleton_small.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/piglin_large",
+      "name": "Piglin Large",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/piglin_large.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/piglin_medium",
+      "name": "Piglin Medium",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/piglin_medium.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/piglin_small",
+      "name": "Piglin Small",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/piglin_small.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/zombie_large",
+      "name": "Zombie Large",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/zombie_large.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/zombie_medium",
+      "name": "Zombie Medium",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/zombie_medium.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/zombie_small",
+      "name": "Zombie Small",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/zombie_small.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/witch_large",
+      "name": "Witch Large",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/witch_large.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/witch_medium",
+      "name": "Witch Medium",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/witch_medium.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/witch_small",
+      "name": "Witch Small",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/witch_small.nbt"
       }
     }
   ]

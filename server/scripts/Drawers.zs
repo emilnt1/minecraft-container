@@ -3,6 +3,12 @@ for Iskall85's Vaulthunters */
 
 // adding recipes
 
+// adding Tags for Recipe's Sake
+<tag:items:drawers:drawers>.add([
+ <tag:items:storagedrawers:drawers>,
+ <tag:items:framedcompactdrawers:frame_triple>
+]);
+
 var logs = {
   "oak_log": "oak",
   "birch_log": "birch",
@@ -92,31 +98,31 @@ for logId, logName in logs {
 
 craftingTable.addShaped("storagedrawers_controller", <item:storagedrawers:controller>, [
     [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:extraordinary_larimar>, <item:the_vault:black_chromatic_steel_ingot>],
-    [<tag:items:storagedrawers:drawers>, <item:the_vault:gem_pog>, <tag:items:storagedrawers:drawers>],
+    [<tag:items:drawers:drawers>, <item:the_vault:gem_pog>, <tag:items:drawers:drawers>],
     [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:extraordinary_larimar>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
 
 craftingTable.addShaped("storagedrawers_controller_slave", <item:storagedrawers:controller_slave>, [
     [<item:the_vault:polished_vault_stone>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:polished_vault_stone>],
-    [<item:the_vault:chromatic_steel_ingot>, <tag:items:storagedrawers:drawers>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:the_vault:chromatic_steel_ingot>, <tag:items:drawers:drawers>, <item:the_vault:chromatic_steel_ingot>],
     [<item:the_vault:polished_vault_stone>, <item:the_vault:vault_diamond>, <item:the_vault:polished_vault_stone>]
 ]);
 
 craftingTable.addShaped("storagedrawers_compacting_drawers_3", <item:storagedrawers:compacting_drawers_3>, [
     [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:the_vault:extraordinary_larimar>, <tag:items:storagedrawers:drawers>, <item:the_vault:extraordinary_larimar>],
+    [<item:the_vault:extraordinary_larimar>, <tag:items:drawers:drawers>, <item:the_vault:extraordinary_larimar>],
     [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
 craftingTable.addShaped("storagedrawers_key", <item:storagedrawers:drawer_key>, [
     [<item:the_vault:vault_diamond>, <item:the_vault:chromatic_steel_ingot>, <item:minecraft:air>],
-    [<item:storagedrawers:upgrade_template>, <tag:items:storagedrawers:drawers>, <item:minecraft:air>],
+    [<item:storagedrawers:upgrade_template>, <tag:items:drawers:drawers>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:the_vault:vault_diamond>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("storagedrawers_upgrade_template", <item:storagedrawers:upgrade_template> *4, [
     [<item:the_vault:magic_silk>, <item:the_vault:gem_larimar>, <item:the_vault:magic_silk>],
-    [<item:the_vault:chromatic_steel_ingot>, <tag:items:storagedrawers:drawers>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:the_vault:chromatic_steel_ingot>, <tag:items:drawers:drawers>, <item:the_vault:chromatic_steel_ingot>],
     [<item:the_vault:magic_silk>, <item:the_vault:gem_larimar>, <item:the_vault:magic_silk>]
 ]);
 

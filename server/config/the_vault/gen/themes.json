@@ -161,7 +161,7 @@
     },
     {
       "id": "the_vault:classic_vault_nether_soul",
-      "name": "Soul Neather",
+      "name": "Soul Nether",
       "color": 3417881,
       "1.0": "config/the_vault/gen/1.0/themes/classic_vault_nether_soul.json"
     },
@@ -182,6 +182,30 @@
       "name": "Gingerbread",
       "color": 8800023,
       "1.0": "config/the_vault/gen/1.0/themes/classic_vault_gingerbread.json"
+    },
+    {
+      "id": "the_vault:classic_vault_mushroom",
+      "name": "Mushroom",
+      "color": 10027008,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_mushroom.json"
+    },
+    {
+      "id": "the_vault:classic_vault_flooded",
+      "name": "Flooded",
+      "color": 7775663,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_flooded.json"
+    },
+    {
+      "id": "the_vault:classic_vault_fairy_ring",
+      "name": "Fairy Ring",
+      "color": 12245105,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_fairy_ring.json"
+    },
+    {
+      "id": "the_vault:classic_vault_poison",
+      "name": "Poison",
+      "color": 13217235,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_poison.json"
     },
     {
       "id": "the_vault:raw_vault_cave",
@@ -207,6 +231,47 @@
       "id": "the_vault:diy_vault_blank",
       "name": "Architect",
       "1.0": "config/the_vault/gen/1.0/themes/diy_vault_blank.json"
+    },
+    {
+      "id": "the_vault:classic_vault_easter_egg",
+      "name": "Easter Egg",
+      "color": 16777100,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_easter_egg.json"
+    },
+    {
+      "id": "the_vault:classic_vault_easter_pastel",
+      "name": "Easter Pastel",
+      "color": 16766676,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_easter_pastel.json"
+    },
+    {
+      "id": "the_vault:classic_vault_white",
+      "name": "Iskall's Favorite",
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_white.json"
+    },
+    {
+      "id": "the_vault:classic_vault_shipwreck",
+      "name": "Shipwreck",
+      "color": 13623024,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_shipwreck.json"
+    },
+    {
+      "id": "the_vault:classic_vault_haunted",
+      "name": "Haunted",
+      "color": 5086371,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_haunted.json"
+    },
+    {
+      "id": "the_vault:classic_vault_sea_floor",
+      "name": "Sea Floor",
+      "color": 6353107,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_sea_floor.json"
+    },
+    {
+      "id": "the_vault:classic_vault_blood_moon",
+      "name": "Blood Moon",
+      "color": 10161689,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_blood_moon.json"
     }
   ]
 }

@@ -70,8 +70,8 @@
   "wireless": {
     "wirelessBaseCost": 8.0,
     "wirelessCostMultiplier": 1.0,
-    "wirelessBaseRange": 16.0,
-    "wirelessBoosterRangeMultiplier": 1.0,
+    "wirelessBaseRange": 48.0,
+    "wirelessBoosterRangeMultiplier": 4.0,
     "wirelessBoosterExp": 1.5,
     "wirelessHighWirelessCount": 64.0,
     "wirelessTerminalDrainMultiplier": 1.0

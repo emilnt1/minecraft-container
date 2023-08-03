@@ -568,6 +568,7 @@
           "icon": "the_vault:gui/modifiers/draining"
         }
       },
+      
       "the_vault:injured": {
         "properties": {
           "type": "max_health_additive",
@@ -1033,6 +1034,19 @@
           "description": "+0.5% Leech",
           "descriptionFormatted": "+%d%% Leech",
           "icon": "the_vault:gui/modifiers/idona"
+        }
+      },
+      "the_vault:antiheal": {
+        "properties": {
+          "stat": "healing_effectiveness",
+          "addend": -0.2
+        },
+        "display": {
+          "name": "Velara's Wrath",
+          "color": "#849dc8",
+          "description": "-20% Healing Efficiency",
+          "descriptionFormatted": "-%d%% Healing Efficiency",
+          "icon": "the_vault:gui/modifiers/velara"
         }
       },
       "the_vault:velara_favour_2": {

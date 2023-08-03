@@ -216,7 +216,9 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:sword",
-                "nbt": "{\"the_vault:gear_roll_type_pool\":\"crate\"}",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "crate"
+                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -228,7 +230,9 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:axe",
-                "nbt": "{\"the_vault:gear_roll_type_pool\":\"crate\"}",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "crate"
+                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -240,7 +244,9 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:helmet",
-                "nbt": "{\"the_vault:gear_roll_type_pool\":\"crate\"}",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "crate"
+                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -252,7 +258,9 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:chestplate",
-                "nbt": "{\"the_vault:gear_roll_type_pool\":\"crate\"}",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "crate"
+                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -264,7 +272,9 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:leggings",
-                "nbt": "{\"the_vault:gear_roll_type_pool\":\"crate\"}",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "crate"
+                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -276,7 +286,9 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:boots",
-                "nbt": "{\"the_vault:gear_roll_type_pool\":\"crate\"}",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "crate"
+                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -288,7 +300,9 @@
               "weight": 16,
               "item": {
                 "id": "the_vault:shield",
-                "nbt": "{\"the_vault:gear_roll_type_pool\":\"crate\"}",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "crate"
+                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -300,7 +314,9 @@
               "weight": 32,
               "item": {
                 "id": "the_vault:jewel",
-                "nbt": "{\"the_vault:gear_roll_type_pool\":\"jewel_normal\"}",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "jewel_normal"
+                },
                 "count": {
                   "type": "uniform",
                   "min": 1,

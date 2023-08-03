@@ -47,7 +47,7 @@
 	#Whether acacia blossoms should drop from blocks tagged with #alexsmobs:drops_acacia_blossoms
 	acaciaBlossomsDropFromLeaves = true
 	#Whether wandering traders offer items like acacia blossoms, mosquito larva, crocodile egg, etc.
-	wanderingTraderOffers = true
+	wanderingTraderOffers = false
 	#0 = no mungus biome transformation. 1 = mungus changes blocks, but not chunk's biome. 2 = mungus transforms blocks and biome of chunk.
 	#Range: 0 ~ 2
 	mungusBiomeTransformationType = 2
@@ -274,6 +274,7 @@
 		#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 		#Range: 0 ~ 1000
 		elephantSpawnWeight = 0
+		elephantTraderSpawnChance = 0
 		#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 		#Range: > 0
 		elephantSpawnRolls = 0

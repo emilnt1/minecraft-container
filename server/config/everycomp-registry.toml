@@ -41,10 +41,9 @@
 		azalea = true
 		blossom = true
 
-	[wood_type.tconstruct]
-		greenheart = true
-		skyroot = true
-		bloodshroom = true
+	[wood_type.the_vault]
+		chromatic = true
+		driftwood = true
 
 [leaves_type]
 
@@ -75,9 +74,4 @@
 		pink_blossom = true
 		yellow_blossom = true
 		red_blossom = true
-
-	[leaves_type.tconstruct]
-		earth_slime = true
-		sky_slime = true
-		ender_slime = true
 

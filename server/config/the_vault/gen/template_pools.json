@@ -96,6 +96,41 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/gingerbread_rooms.json"
     },
     {
+      "id": "the_vault:vault/rooms/mushroom_rooms",
+      "name": "Mushroom Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/mushroom_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/easter_pastel_rooms",
+      "name": "Easter Pastel Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/easter_pastel_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/easter_egg_rooms",
+      "name": "Easter Egg Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/easter_egg_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/shipwreck_rooms",
+      "name": "Shipwreck Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/shipwreck_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/flooded_rooms",
+      "name": "Flooded Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/flooded_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/fairy_ring_rooms",
+      "name": "Fairy Ring Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/fairy_ring_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/poison_rooms",
+      "name": "Poison Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/poison_rooms.json"
+    },
+    {
       "id": "the_vault:vault/starts/plastic_starts",
       "name": "Plastic Starts",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/plastic_starts.json"
@@ -184,6 +219,41 @@
       "id": "the_vault:vault/starts/gingerbread_starts",
       "name": "Gingerbread Starts",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/gingerbread_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/mushroom_starts",
+      "name": "Mushroom Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/mushroom_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/easter_pastel_starts",
+      "name": "Easter Pastel Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/easter_pastel_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/easter_egg_starts",
+      "name": "Easter Egg Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/easter_egg_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/shipwreck_starts",
+      "name": "Shipwreck Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/shipwreck_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/flooded_starts",
+      "name": "Flooded Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/flooded_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/fairy_ring_starts",
+      "name": "Fairy Ring Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/fairy_ring_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/poison_starts",
+      "name": "Poison Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/poison_starts.json"
     },
     {
       "id": "the_vault:vault/portals/portals",
@@ -279,6 +349,41 @@
       "id": "the_vault:vault/tunnels/gingerbread_tunnels",
       "name": "Gingerbread Tunnels",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/gingerbread_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/mushroom_tunnels",
+      "name": "Mushroom Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/mushroom_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/easter_pastel_tunnels",
+      "name": "Easter Pastel Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/easter_pastel_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/easter_egg_tunnels",
+      "name": "Easter Egg Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/easter_egg_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/shipwreck_tunnels",
+      "name": "Shipwreck Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/shipwreck_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/flooded_tunnels",
+      "name": "Flooded Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/flooded_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/fairy_ring_tunnels",
+      "name": "Fairy Ring Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/fairy_ring_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/poison_tunnels",
+      "name": "Poison Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/poison_tunnels.json"
     },
     {
       "id": "the_vault:vault/altars/altars",
@@ -941,6 +1046,21 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/dragon/corner_spawner1.json"
     },
     {
+      "id": "the_vault:vault/decor/dragon/corner_spawner2",
+      "name": "Corner Spawner 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/dragon/corner_spawner2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/corner_spawner3",
+      "name": "Corner Spawner 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/dragon/corner_spawner3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/corner_spawner4",
+      "name": "Corner Spawner 4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/dragon/corner_spawner4.json"
+    },
+    {
       "id": "the_vault:vault/decor/dragon/hanging1",
       "name": "Hanging 1",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/dragon/hanging1.json"
@@ -1044,6 +1164,11 @@
       "id": "the_vault:vault/rooms/omega/digsite",
       "name": "Dig Site",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/digsite.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/digsite2",
+      "name": "Dig Site",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/digsite2.json"
     },
     {
       "id": "the_vault:vault/rooms/omega/vendor",
@@ -1169,6 +1294,41 @@
       "id": "the_vault:vault/rooms/void_common_rooms",
       "name": "Void Common Rooms",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/void_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/mushroom_common_rooms",
+      "name": "Mushroom Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/mushroom_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/easter_pastel_common_rooms",
+      "name": "Easter Pastel Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/easter_pastel_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/easter_egg_common_rooms",
+      "name": "Easter Egg Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/easter_egg_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/shipwreck_common_rooms",
+      "name": "Shipwreck Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/shipwreck_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/flooded_common_rooms",
+      "name": "Flooded Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/flooded_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/fairy_ring_common_rooms",
+      "name": "Fairy Ring Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/fairy_ring_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/poison_common_rooms",
+      "name": "Poison Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/poison_common_rooms.json"
     },
     {
       "id": "the_vault:vault/decor/x-mark/redstone_spawner",
@@ -1817,6 +1977,185 @@
       "id": "the_vault:vault/rooms/raw/diamond_caves_regular",
       "name": "Regular Diamond Caves",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/diamond_caves_regular.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb1",
+      "name": "Catacomb 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/catacomb1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb2",
+      "name": "Catacomb 2",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/catacomb2.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb3",
+      "name": "Catacomb 3",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/catacomb3.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb4",
+      "name": "Catacomb 4",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/catacomb4.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb5",
+      "name": "Catacomb 5",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/catacomb5.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb6",
+      "name": "Catacomb 6",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/catacomb6.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb7",
+      "name": "Catacomb 7",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/catacomb7.json"
+    },
+    {
+      "id": "the_vault:vault/decor/village/catacomb8",
+      "name": "Catacomb 8",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/village/catacomb8.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/white_common_rooms",
+      "name": "White Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/white_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/white_rooms",
+      "name": "White Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/white_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/starts/white_starts",
+      "name": "White Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/white_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/white_tunnels",
+      "name": "White Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/white_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/7x7/standing_a1",
+      "name": "Reference Ore 7x7 Standing Alt 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/7x7/standing_a1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/7x7/hole_a1",
+      "name": "Reference Ore 7x7 Hole Alt 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/7x7/hole_a1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/9x9/standing_a1",
+      "name": "Reference Ore 9x9 Standing Alt 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/9x9/standing_a1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/generic/references/ore/9x9/hole_a1",
+      "name": "Reference Ore 9x9 Hole Alt 1",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/generic/references/ore/9x9/hole_a1.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/haunted_rooms",
+      "name": "Haunted Rooms",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/haunted_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/haunted_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/starts/haunted_starts",
+      "name": "Haunted Starts",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/starts/haunted_starts.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/haunted_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/haunted_tunnels",
+      "name": "Haunted Tunnels",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/tunnels/haunted_tunnels.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/haunted_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/haunted_common_rooms",
+      "name": "Haunted Common Rooms",
+      "1.1": "config/the_vault/gen/1.0/template_pools/vault/rooms/haunted_common_rooms.json",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/haunted_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/sea_floor_common_rooms",
+      "name": "Sea Floor Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/sea_floor_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/sea_floor_rooms",
+      "name": "Sea Floor Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/sea_floor_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/starts/sea_floor_starts",
+      "name": "Sea Floor Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/sea_floor_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/sea_floor_tunnels",
+      "name": "Sea Floor Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/sea_floor_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/trove",
+      "name": "Trove",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/trove.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/blood_moon_common_rooms",
+      "name": "Blood Moon Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/blood_moon_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/blood_moon_rooms",
+      "name": "Blood Moon Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/blood_moon_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/starts/blood_moon_starts",
+      "name": "Blood Moon Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/blood_moon_starts.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/blood_moon_tunnels",
+      "name": "Blood Moon Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/blood_moon_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/pillager_rooms",
+      "name": "Pillager Dungeon Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/dungeon_rooms/pillager_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/spider_rooms",
+      "name": "Spider Dungeon Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/dungeon_rooms/spider_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/skeleton_rooms",
+      "name": "Skeleton Dungeon Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/dungeon_rooms/skeleton_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/piglin_rooms",
+      "name": "Piglin Dungeon Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/dungeon_rooms/piglin_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/witch_rooms",
+      "name": "Witch Dungeon Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/dungeon_rooms/witch_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/dungeon_rooms/zombie_rooms",
+      "name": "Zombie Dungeon Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/dungeon_rooms/zombie_rooms.json"
     }
   ]
 }

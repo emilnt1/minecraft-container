@@ -6,10 +6,11 @@
       "levels": [
         {
           "level": 0,
-          "probability": 0.1,
+          "probability": 0.25,
           "success": {
             "the_vault:modifier_discovery": 0,
-            "the_vault:enhancement_altar": 1
+            "the_vault:enhancement_altar": 0,
+            "the_vault:alchemy_archive": 5
           },
           "failure": {
             "minecraft:air": 1
@@ -17,10 +18,11 @@
         },
         {
           "level": 60,
-          "probability": 0.2,
+          "probability": 0.35,
           "success": {
-            "the_vault:modifier_discovery": 10,
-            "the_vault:enhancement_altar": 2
+            "the_vault:modifier_discovery": 8,
+            "the_vault:enhancement_altar": 0,
+            "the_vault:alchemy_archive": 2
           },
           "failure": {
             "minecraft:air": 1

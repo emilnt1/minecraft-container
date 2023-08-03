@@ -5,6 +5,8 @@ for Iskall85's Vaulthunters */
 
 import crafttweaker.api.recipe.Brewing;
 import mods.initialinventory.InvHandler;
+import mods.mekanism.recipe.Combining;
+import mods.mekanism.api.ingredient.ItemStackIngredient;
 
 InvHandler.addStartingItem("one", <item:patchouli:guide_book>.withTag({"patchouli:book": "patchouli:the_vault_main_guide" as string}), 0);
 
@@ -52,58 +54,20 @@ craftingTable.addShaped("goldenapple", <item:minecraft:golden_apple>, [
     [<item:minecraft:gold_block>, <item:minecraft:gold_ingot>, <item:minecraft:gold_block>]
 ]);
 
-craftingTable.addShaped("dragon_head", <item:minecraft:dragon_head>, [
-    [<item:minecraft:crying_obsidian>, <item:minecraft:ender_eye>, <item:minecraft:crying_obsidian>],
-    [<item:the_vault:gem_larimar>, <item:minecraft:wither_skeleton_skull>, <item:the_vault:gem_larimar>],
-    [<item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>, <item:minecraft:crying_obsidian>]
+craftingTable.addShaped("chunky", <item:chunkymcchunkface:chunk_loader>, [
+    [<item:the_vault:gem_larimar>, <item:the_vault:perfect_larimar>, <item:the_vault:gem_larimar>],
+    [<item:minecraft:gold_block>, <item:the_vault:chromatic_steel_block>, <item:minecraft:gold_block>],
+    [<item:minecraft:obsidian>, <item:the_vault:chromatic_steel_ingot>, <item:minecraft:obsidian>]
 ]);
 
-craftingTable.addShaped("nautilus_shell", <item:minecraft:nautilus_shell>, [
-    [<item:minecraft:quartz>, <item:the_vault:gem_larimar>, <item:minecraft:quartz>],
-    [<item:the_vault:gem_larimar>, <item:minecraft:rotten_flesh>, <item:the_vault:gem_larimar>],
-    [<item:minecraft:quartz>, <item:the_vault:gem_larimar>, <item:minecraft:quartz>]
+craftingTable.addShapeless("weird_to_chunk", <item:chunkymcchunkface:chunk_loader>, [
+    <item:weirdinggadget:weirding_gadget>
 ]);
 
-craftingTable.addShaped("heart_of_the_sea", <item:minecraft:heart_of_the_sea>, [
-    [<item:minecraft:air>, <item:the_vault:perfect_larimar>, <item:minecraft:air>],
-    [<item:the_vault:perfect_larimar>, <item:minecraft:diamond_block>, <item:the_vault:perfect_larimar>],
-    [<item:minecraft:air>, <item:the_vault:perfect_larimar>, <item:minecraft:air>]
-]);
-
-craftingTable.addShaped("phantom_membrane", <item:minecraft:phantom_membrane>, [
-    [<item:minecraft:air>, <item:the_vault:gem_larimar>, <item:minecraft:air>],
-    [<item:the_vault:gem_larimar>, <item:minecraft:quartz>, <item:the_vault:gem_larimar>],
-    [<item:minecraft:air>, <item:the_vault:gem_larimar>, <item:minecraft:air>]
-]);
-
-craftingTable.addShaped("trident", <item:minecraft:trident>, [
-    [<item:the_vault:perfect_larimar>, <item:the_vault:gem_larimar>, <item:the_vault:perfect_larimar>],
-    [<item:minecraft:air>, <item:minecraft:netherite_ingot>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:the_vault:perfect_larimar>, <item:minecraft:air>]
-]);
-
-craftingTable.addShaped("turtle_egg", <item:minecraft:turtle_egg>, [
-    [<item:minecraft:air>, <item:the_vault:gem_larimar>, <item:minecraft:air>],
-    [<item:the_vault:gem_larimar>, <item:minecraft:egg>, <item:the_vault:gem_larimar>],
-    [<item:minecraft:air>, <item:the_vault:gem_larimar>, <item:minecraft:air>]
-]);
-
-craftingTable.addShaped("music_disc_11", <item:minecraft:music_disc_11>, [
+craftingTable.addShaped("cage_dust", <item:ispawner:cage_dust>, [
     [<item:minecraft:air>, <item:the_vault:gem_larimar>, <item:minecraft:air>],
     [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:gem_larimar>],
     [<item:minecraft:air>, <item:the_vault:gem_larimar>, <item:minecraft:air>]
-]);
-
-craftingTable.addShaped("honeycomb", <item:minecraft:honeycomb>, [
-    [<item:minecraft:air>, <item:the_vault:gem_larimar>, <item:minecraft:air>],
-    [<item:the_vault:gem_larimar>, <item:minecraft:honey_block>, <item:the_vault:gem_larimar>],
-    [<item:minecraft:air>, <item:the_vault:gem_larimar>, <item:minecraft:air>]
-]);
-
-craftingTable.addShaped("weirding_gadget", <item:weirdinggadget:weirding_gadget>, [
-    [<item:the_vault:gem_larimar>, <item:the_vault:perfect_larimar>, <item:the_vault:gem_larimar>],
-    [<item:minecraft:gold_block>, <item:the_vault:chromatic_steel_block>, <item:minecraft:gold_block>],
-    [<item:minecraft:gold_block>, <item:the_vault:chromatic_steel_ingot>, <item:minecraft:gold_block>]
 ]);
 
 craftingTable.addShapeless("suspicious_weaknes_red_stew", <item:minecraft:suspicious_stew>.withTag({Effects: [{EffectId: 18 as byte, EffectDuration: 180 as int}]}), [
@@ -244,24 +208,6 @@ craftingTable.addShaped("bundle", <item:minecraft:bundle>, [
     [<item:the_vault:magic_silk>, <item:the_vault:magic_silk>, <item:the_vault:magic_silk>]
 ]);
 
-craftingTable.addShaped("artisantable", <item:the_vault:vault_artisan_station>, [
- [<item:the_vault:vault_essence>, <item:minecraft:netherite_ingot>, <item:the_vault:vault_essence>],
-    [<item:the_vault:chromatic_steel_ingot>, <tag:items:minecraft:anvil>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>]
-]);
-
-craftingTable.addShaped("forge", <item:the_vault:vault_forge>, [
-    [<item:the_vault:vault_essence>, <item:minecraft:netherite_ingot>, <item:the_vault:vault_essence>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:minecraft:blast_furnace>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>]
-]);
-
-craftingTable.addShaped("orb_frame", <item:the_vault:orb_frame>, [
-    [<item:the_vault:vault_essence>, <item:the_vault:gem_black_opal>, <item:the_vault:vault_essence>],
-    [<item:the_vault:gem_black_opal>, <item:the_vault:extraordinary_benitoite>, <item:the_vault:gem_black_opal>],
-    [<item:the_vault:vault_essence>, <item:the_vault:gem_black_opal>, <item:the_vault:vault_essence>]
-]);
-
 craftingTable.addShaped("enercell", <item:enercell:enercell>, [
     [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_essence>, <item:the_vault:chromatic_steel_ingot>],
     [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_iron_block>, <item:the_vault:chromatic_steel_ingot>],
@@ -297,3 +243,78 @@ craftingTable.addShaped("pebble", <item:twigs:pebble> *4, [
     [<tag:items:forge:stone>, <item:minecraft:air>, <tag:items:forge:stone>],
     [<item:the_vault:polished_vault_stone>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
+
+craftingTable.addShapeless("necrotic_bones", <item:minecraft:bone>, [
+    <item:architects_palette:withered_bone>, <item:architects_palette:withered_bone>, <item:architects_palette:withered_bone>,
+    <item:architects_palette:withered_bone>, <item:architects_palette:withered_bone>, <item:architects_palette:withered_bone>,
+    <item:architects_palette:withered_bone>, <item:architects_palette:withered_bone>
+]);
+
+<recipetype:mekanism:combining>.addRecipe("cobweb", ItemStackIngredient.from(<item:minecraft:string>), ItemStackIngredient.from(<item:minecraft:vine>), <item:minecraft:cobweb>);
+
+<recipetype:create:item_application>.addRecipe("cobweb2", [<item:minecraft:cobweb>],
+<item:minecraft:vine>, <item:minecraft:string>);
+
+<recipetype:create:item_application>.addRecipe("shroomlight", [<item:minecraft:shroomlight>],
+<item:minecraft:glowstone>, <item:minecraft:nether_wart>);
+
+<recipetype:create:item_application>.addRecipe("dead_horn_coral", [<item:minecraft:dead_horn_coral_block>],
+<item:minecraft:cactus>, <item:minecraft:dried_kelp>);
+
+<recipetype:create:item_application>.addRecipe("horn_coral", [<item:minecraft:horn_coral_block>],
+<item:minecraft:dead_horn_coral_block>, <item:minecraft:sunflower>);
+
+<recipetype:create:item_application>.addRecipe("hanging_roots", [<item:minecraft:hanging_roots>],
+<item:minecraft:vine>, <item:minecraft:rotten_flesh>);
+
+<recipetype:create:item_application>.addRecipe("weeping_vines", [<item:minecraft:weeping_vines>],
+<item:minecraft:vine>, <item:minecraft:nether_wart>);
+
+<recipetype:create:item_application>.addRecipe("dead_bush", [<item:minecraft:dead_bush>],
+<item:minecraft:grass>, <item:minecraft:rotten_flesh>);
+
+<recipetype:create:item_application>.addRecipe("coarse_dirt", [<item:minecraft:coarse_dirt>],
+<item:minecraft:gravel>, <item:minecraft:rotten_flesh>);
+
+<recipetype:create:item_application>.addRecipe("rooted_dirt", [<item:minecraft:rooted_dirt>],
+<item:minecraft:coarse_dirt>, <item:minecraft:rotten_flesh>);
+
+
+// craftingTable.addShaped("brew1", <item:the_vault:bottle>.withTag({charges:6 as int,recharge:"time" as string,type:"brew" as string,vaultGearData:"[L;7069878597367160218L,-6692775768183260158L,1514722424829610009L,3527585455153845571L,2753168875257675788L,2987536090647L,565248L,8830586978304L]"}), [
+//     [<item:the_vault:vault_diamond_block>, <item:minecraft:poppy>, <item:the_vault:vault_diamond_block>],
+//     [<item:the_vault:hearty_apple>, <item:minecraft:glass_bottle>, <item:the_vault:hearty_apple>],
+//     [<item:the_vault:poisonous_mushroom>, <item:the_vault:echo_pog>, <item:the_vault:poisonous_mushroom>]
+// ]);
+// <recipetype:minecraft:crafting_shaped>.addJsonRecipe("brew1", 
+// {
+//     "pattern": [
+//     "dfd",
+//     "aba",
+//     "cec"
+//   ],
+//   "key": {
+//     "a": {
+//       "item": "the_vault:hearty_apple"
+//     },
+//     "b": {
+//       "item": "minecraft:glass_bottle"
+//     },
+//     "c": {
+//       "item": "the_vault:poisonous_mushroom"
+//     },
+//     "d": {
+//       "item": "the_vault:vault_diamond_block"
+//     },
+//     "e": {
+//       "item": "the_vault:echo_pog"
+//     },
+//     "f": {
+//       "item": "minecraft:poppy"
+//     }
+//   },
+//   "result": {
+//     "item": "the_vault:bottle",
+//     "count": 1,
+//     "nbt": "{charges:6,recharge:\"time\",type:\"brew\",vaultGearData:[L;7069878597367160218L,-6692775768183260158L,1514722424829610009L,3527585455153845571L,2753168875257675788L,2987536090647L,565248L,8830586978304L]}"
+//   }
+// });

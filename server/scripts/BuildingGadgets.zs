@@ -26,3 +26,9 @@ craftingTable.addShaped("buildinggadgets_copy_paste_gadget", <item:buildinggadge
     [<item:the_vault:vault_essence>, <item:buildinggadgets:gadget_building>, <item:the_vault:vault_essence>],
     [<item:the_vault:chromatic_steel_ingot>, <item:minecraft:redstone_block>, <item:the_vault:chromatic_steel_ingot>]
 ]);
+
+craftingTable.addShaped("dense_paste_block_water", <item:buildinggadgets:construction_block_dense> * 8, [
+    [<item:buildinggadgets:construction_block_powder>, <item:buildinggadgets:construction_block_powder>, <item:buildinggadgets:construction_block_powder>], 
+    [<item:buildinggadgets:construction_block_powder>, <item:minecraft:water_bucket>.reuse(), <item:buildinggadgets:construction_block_powder>], 
+    [<item:buildinggadgets:construction_block_powder>, <item:buildinggadgets:construction_block_powder>, <item:buildinggadgets:construction_block_powder>]
+]);

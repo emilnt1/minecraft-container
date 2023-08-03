@@ -35,7 +35,9 @@
               "weight": 2,
               "item": {
               "id": "the_vault:jewel",
-              "nbt": "{\"the_vault:gear_roll_type_pool\":\"jewel_normal\"}",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "jewel_normal"
+                },
               "count": {
                 "type": "uniform",
                 "min": 1,

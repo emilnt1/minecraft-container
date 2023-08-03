@@ -129,6 +129,12 @@ craftingTable.addShaped("create_waterwheel", <item:create:water_wheel>, [
     [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>]
 ]);
 
+craftingTable.addShaped("create_large_waterwheel", <item:create:large_water_wheel>, [
+    [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>],
+    [<item:create:water_wheel>, <item:the_vault:gem_pog>, <item:create:water_wheel>],
+    [<item:the_vault:driftwood>, <item:the_vault:driftwood>, <item:the_vault:driftwood>]
+]);
+
 craftingTable.addShaped("create_basin", <item:create:basin>, [
     [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:create:andesite_alloy>, <item:the_vault:perfect_larimar>, <item:create:andesite_alloy>],
@@ -216,9 +222,9 @@ craftingTable.addShaped("create_steam_engine", <item:create:steam_engine>, [
 ]);
 
 craftingTable.addShaped("create_vault", <item:create:item_vault> *3, [
-    [<item:the_vault:vault_essence>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_essence>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:create:andesite_casing>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:the_vault:vault_essence>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_essence>]
+    [<item:the_vault:vault_essence>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_essence>],
+    [<item:the_vault:chromatic_iron_ingot>, <item:create:andesite_casing>, <item:the_vault:chromatic_iron_ingot>],
+    [<item:the_vault:vault_essence>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_essence>]
 ]);
 
 <recipetype:create:mixing>.addRecipe("mixing_healing_potion", <constant:create:heat_condition:heated>, [<fluid:create:potion>.withTag({Potion: "minecraft:healing", Bottle:"REGULAR"}) *1000], [

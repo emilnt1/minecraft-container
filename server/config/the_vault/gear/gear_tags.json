@@ -29,15 +29,6 @@
       "color": 65535,
       "weight": 0
     },
-    "Thorns": {
-      "tags": [
-        "ModThornsChance",
-        "ModThornsDamage"
-      ],
-      "display": "Thorns",
-      "color": 16747256,
-      "weight": 0
-    },
     "Looting": {
       "tags": [
         "ModItemRarity",
@@ -69,30 +60,52 @@
       "color": 16740864,
       "weight": 0
     },
-    "Fatal Strike": {
-      "tags": [
-        "ModFatalStrikeDamage",
-        "ModFatalStrikeChance"
-      ],
-      "display": "Fatal Strike",
-      "color": 16523264,
-      "weight": 0
-    },
-    "On Hit Effect": {
-      "tags": [
-        "ModOnHitEffect",
-        "ModEffectCloud"
-      ],
-      "display": "On Hit Effect",
-      "color": 16129201,
-      "weight": 0
-    },
     "Resistance": {
       "tags": [
         "focusResistance"
       ],
       "display": "Resistance",
       "color": 16760832,
+      "weight": 10
+    },
+    "Lucky Hit": {
+      "tags": [
+        "focusLuckyHitChance"
+      ],
+      "display": "Lucky Hit",
+      "color": 7206307,
+      "weight": 10
+    },
+    "Slowness Cloud": {
+      "tags": [
+        "focusSlownessCloud"
+      ],
+      "display": "Slowness Cloud",
+      "color": 7400423,
+      "weight": 10
+    },
+    "Poison Cloud": {
+      "tags": [
+        "focusPoisonCloud"
+      ],
+      "display": "Poison Cloud",
+      "color": 4236591,
+      "weight": 10
+    },
+    "Healing Cloud": {
+      "tags": [
+        "focusHealingCloud"
+      ],
+      "display": "Healing Cloud",
+      "color": 16150747,
+      "weight": 10
+    },
+    "Fear Cloud": {
+      "tags": [
+        "focusFearCloud"
+      ],
+      "display": "Fear Cloud",
+      "color": 2818160,
       "weight": 10
     },
     "Health": {
@@ -255,36 +268,12 @@
       "color": 1681124,
       "weight": 10
     },
-    "Cleaving": {
-      "tags": [
-        "focusCleave"
-      ],
-      "display": "Cleaving",
-      "color": 12085504,
-      "weight": 10
-    },
-    "CritHitMitigation": {
-      "tags": [
-        "focusCritHitMitigation"
-      ],
-      "display": "Crit Hit Mitigation",
-      "color": 7441919,
-      "weight": 10
-    },
     "Block": {
       "tags": [
         "focusBlock"
       ],
       "display": "Block Chance",
       "color": 16109454,
-      "weight": 10
-    },
-    "ThornsChance": {
-      "tags": [
-        "focusThornsChance"
-      ],
-      "display": "Thorns Chance",
-      "color": 16761035,
       "weight": 10
     },
     "ThornsDamage": {
@@ -303,27 +292,11 @@
       "color": 14727777,
       "weight": 10
     },
-    "FatalStrikeChance": {
-      "tags": [
-        "focusFatalStrikeChance"
-      ],
-      "display": "Fatal Strike Chance",
-      "color": 16523264,
-      "weight": 10
-    },
-    "FatalStrikeDamage": {
-      "tags": [
-        "focusFatalStrikeDamage"
-      ],
-      "display": "Fatal Strike Damage",
-      "color": 12520704,
-      "weight": 10
-    },
     "DamageIllagers": {
       "tags": [
         "focusDamageIllager"
       ],
-      "display": "Spiteful",
+      "display": "Illager Damage",
       "color": 40882,
       "weight": 10
     },
@@ -331,7 +304,7 @@
       "tags": [
         "focusDamageSpiders"
       ],
-      "display": "Baneful",
+      "display": "Arthropod Damage",
       "color": 8281694,
       "weight": 10
     },
@@ -339,7 +312,7 @@
       "tags": [
         "focusDamageUndead"
       ],
-      "display": "Holy",
+      "display": "Undead Damage",
       "color": 16382128,
       "weight": 10
     },
@@ -365,6 +338,14 @@
       ],
       "display": "Immunity",
       "color": 15589836,
+      "weight": 10
+    },
+    "AOE": {
+      "tags": [
+        "focusEffectRadius"
+      ],
+      "display": "Area Of Effect",
+      "color": 15319925,
       "weight": 10
     },
     "Reach": {

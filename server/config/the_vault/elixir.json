@@ -14,40 +14,47 @@
   },
   "mobGroups": {
     "the_vault:t0_tank_mobs": [
-      "minecraft:zombie",
-      "minecraft:husk",
-      "minecraft:drowned",
       "the_vault:vault_green_gummy_soldier",
-      "the_vault:vault_blue_gummy_soldier",
-      "the_vault:vault_yellow_gummy_soldier",
-      "the_vault:vault_red_gummy_soldier",
-      "minecraft:piglin",
+      "rottencreatures:undead_miner",
       "minecraft:enderman"
     ],
     "the_vault:t1_tank_mobs": [
-      "the_vault:t1_enderman",
-      "the_vault:t1_drowned",
-      "the_vault:t1_zombie",
-      "the_vault:t1_husk",
-      "the_vault:t1_piglin"
+      "the_vault:t1_enderman"
     ],
     "the_vault:t2_tank_mobs": [
-      "the_vault:t2_piglin",
-      "the_vault:t2_enderman",
-      "the_vault:t2_drowned",
-      "the_vault:t2_zombie",
-      "the_vault:t2_husk"
+      "the_vault:t2_enderman"
+    ],
+    "the_vault:tank_mobs": [
+      "@the_vault:tank"
+    ],
+    "the_vault:horde_mobs": [
+      "@the_vault:horde"
     ],
     "the_vault:t3_tank_mobs": [
-      "the_vault:t3_husk",
-      "the_vault:t3_piglin",
-      "the_vault:t3_enderman",
-      "the_vault:t3_zombie",
-      "the_vault:t3_drowned"
+      "the_vault:winterwalker_t4",
+      "the_vault:overgrown_zombie_t4",
+      "the_vault:mushroom_t4",
+      "the_vault:winterwalker_t5",
+      "the_vault:overgrown_zombie_t5",
+      "the_vault:mushroom_t5",
+      "the_vault:miner_zombie_t4",
+      "the_vault:miner_zombie_t5",
+      "the_vault:mummy_t0",
+      "the_vault:mummy_t1",
+      "rottencreatures:swampy",
+      "rottencreatures:burned",
+      "the_vault:mummy_t2"
     ],
     "the_vault:t0_damage_mobs": [
       "minecraft:skeleton",
+      "minecraft:witch",
+      "minecraft:ravager",
+      "minecraft:pillager",
+      "minecraft:vindicator",
       "minecraft:wither_skeleton",
+      "the_vault:skeleton_pirate_t0",
+      "the_vault:deep_dark_silverfish",
+      "the_vault:vault_blue_gummy_soldier",
       "minecraft:stray",
       "minecraft:creeper",
       "the_vault:vault_spider",
@@ -55,34 +62,44 @@
       "minecraft:slime",
       "minecraft:magma_cube",
       "minecraft:blaze",
-      "minecraft:piglin_brute",
       "alexsmobs:soul_vulture",
       "minecraft:polar_bear",
       "minecraft:shulker",
       "minecraft:silverfish",
       "the_vault:vault_spider_baby",
       "auxiliaryblocks:snowdood",
-      "alexsmobs:rocky_roller",
-      "quark:foxhound"
+      "quark:foxhound",
+      "ecologics:coconut_crab",
+      "alexsmobs:bunfungus",
+      "alexsmobs:alligator_snapping_turtle",
+      "the_vault:deep_dark_piglin"
     ],
     "the_vault:t1_damage_mobs": [
       "the_vault:t1_creeper",
       "the_vault:t1_wither_skeleton",
       "the_vault:t1_skeleton",
       "the_vault:t1_stray",
-      "the_vault:winter_wolf"
+      "the_vault:skeleton_pirate_t1"
     ],
     "the_vault:t2_damage_mobs": [
       "the_vault:t2_stray",
+      "the_vault:skeleton_pirate_t2",
       "the_vault:t2_creeper",
       "the_vault:t2_wither_skeleton",
-      "the_vault:t2_skeleton"
+      "the_vault:t2_skeleton",
+      "the_vault:winter_wolf"
     ],
     "the_vault:t3_damage_mobs": [
       "the_vault:t3_stray",
       "the_vault:t3_creeper",
       "the_vault:t3_wither_skeleton",
-      "the_vault:t3_skeleton"
+      "the_vault:skeleton_pirate_t3",
+      "the_vault:skeleton_pirate_t4",
+      "the_vault:skeleton_pirate_t5",
+      "the_vault:t3_skeleton",
+      "alexsmobs:rocky_roller",
+      "alexsmobs:mantis_shrimp",
+      "alexsmobs:tusklin"
     ],
     "the_vault:dwellers": [
       "the_vault:vault_fighter",
@@ -306,8 +323,8 @@
             },
             {
               "value": {
-                "min": 7,
-                "max": 10,
+                "min": 6,
+                "max": 8,
                 "type": "uniform"
               },
               "weight": 1
@@ -398,6 +415,50 @@
               "value": {
                 "min": 7,
                 "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 5,
+                "max": 7,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:horde_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 2,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
                 "type": "uniform"
               },
               "weight": 1
@@ -774,8 +835,8 @@
             },
             {
               "value": {
-                "min": 7,
-                "max": 10,
+                "min": 6,
+                "max": 8,
                 "type": "uniform"
               },
               "weight": 1
@@ -866,6 +927,50 @@
               "value": {
                 "min": 7,
                 "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 5,
+                "max": 7,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:horde_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 2,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
                 "type": "uniform"
               },
               "weight": 1
@@ -1242,8 +1347,8 @@
             },
             {
               "value": {
-                "min": 7,
-                "max": 10,
+                "min": 6,
+                "max": 8,
                 "type": "uniform"
               },
               "weight": 1
@@ -1334,6 +1439,50 @@
               "value": {
                 "min": 7,
                 "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 5,
+                "max": 7,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:horde_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 2,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
                 "type": "uniform"
               },
               "weight": 1

@@ -10,7 +10,11 @@
     },
     {
       "type": "reference",
-      "id": "the_vault:generic/spawners/cave_mobs"
+      "id": "the_vault:generic/spawners/common_settings"
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/spawners/lush_cave_mobs"
     },
     {
       "type": "reference",

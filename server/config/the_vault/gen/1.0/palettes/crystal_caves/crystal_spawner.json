@@ -67,7 +67,8 @@
                 "type": "weighted_target",
                 "target": "ispawner:spawner",
                 "output": {
-                    "ispawner:spawner{ Manager:{ UsesLeft:3 } }": 1
+                    "ispawner:spawner{ Manager:{ UsesLeft:2 } }": 1,
+                    "ispawner:spawner{ Manager:{ UsesLeft:1 } }": 4
                 }
             },
             {
@@ -75,10 +76,29 @@
               "type": "weighted_target",
               "target": "ispawner:spawner",
               "output": {
-                  "ispawner:spawner{ Manager:{ UsesLeft:4 } }": 1
+                  "ispawner:spawner{ Manager:{ UsesLeft:1 } }": 1,
+                  "ispawner:spawner{ Manager:{ UsesLeft:2 } }": 3
+              }
+            },
+            {
+              "level": 50,
+              "type": "weighted_target",
+              "target": "ispawner:spawner",
+              "output": {
+                  "ispawner:spawner{ Manager:{ UsesLeft:2 } }": 1,
+                  "ispawner:spawner{ Manager:{ UsesLeft:3 } }": 3
+              }
+            },
+            {
+              "level": 90,
+              "type": "weighted_target",
+              "target": "ispawner:spawner",
+              "output": {
+                  "ispawner:spawner{ Manager:{ UsesLeft:4 } }": 1,
+                  "ispawner:spawner{ Manager:{ UsesLeft:3 } }": 3
               }
             }
-        ]
+          ]
       },
       {
         "type": "reference",

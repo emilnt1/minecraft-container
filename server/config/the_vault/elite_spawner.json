@@ -22,6 +22,27 @@
         }
       ]
     },
+    "the_vault:elite_wither_skeleton": {
+      "elite": {
+        "entityName": "the_vault:elite_wither_skeleton"
+      },
+      "min": 3,
+      "max": 5,
+      "minions": [
+        {
+          "value": {
+            "entityName": "minecraft:wither_skeleton"
+          },
+          "weight": 1
+        },
+        {
+          "value": {
+            "entityName": "minecraft:skeleton"
+          },
+          "weight": 4
+        }
+      ]
+    },
     "the_vault:elite_husk": {
       "elite": {
         "entityName": "the_vault:elite_husk"
@@ -56,14 +77,20 @@
       "elite": {
         "entityName": "the_vault:elite_witch"
       },
-      "min": 4,
-      "max": 9,
+      "min": 3,
+      "max": 5,
       "minions": [
         {
           "value": {
             "entityName": "minecraft:witch"
           },
           "weight": 1
+        },
+        {
+          "value": {
+            "entityName": "minecraft:illager"
+          },
+          "weight": 4
         }
       ]
     },
@@ -76,9 +103,15 @@
       "minions": [
         {
           "value": {
+            "entityName": "minecraft:skeleton"
+          },
+          "weight": 2
+        },
+        {
+          "value": {
             "entityName": "minecraft:stray"
           },
-          "weight": 1
+          "weight": 3
         }
       ]
     },

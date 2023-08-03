@@ -3,8 +3,8 @@
     "0": {
       "pool": [
         {
-          "rewardPool": "common",
           "value": {
+
             "value": "the_vault:ore_larimar",
             "amount": {
               "min": 2,
@@ -12,13 +12,14 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "common"
           },
           "weight": 20
         },
         {
-          "rewardPool": "common",
           "value": {
+
             "value": "the_vault:ore_benitoite",
             "amount": {
               "min": 2,
@@ -26,13 +27,14 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "common"
           },
           "weight": 12
         },
         {
-          "rewardPool": "common",
           "value": {
+
             "value": "the_vault:ore_painite",
             "amount": {
               "min": 2,
@@ -40,13 +42,14 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "common"
           },
           "weight": 10
         },
         {
-          "rewardPool": "common",
           "value": {
+
             "value": "the_vault:ore_wutodie",
             "amount": {
               "min": 2,
@@ -54,152 +57,167 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "common"
           },
           "weight": 10
         },
         {
-          "rewardPool": "rare",
           "value": {
-            "value": "the_vault:ore_black_opal",
+
+            "value": "the_vault:ore_alexandrite",
             "amount": {
               "min": 2,
               "max": 8
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "common"
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "value": "the_vault:ore_black_opal",
+            "amount": {
+              "min": 2,
+              "max": 6
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 6
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_iskallium",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_gorginite",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_sparkletine",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_ashium",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_bomignite",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_tubium",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_upaline",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_petzanite",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_xenium",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_echo",
             "amount": {
@@ -208,7 +226,8 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 1
         }
@@ -217,8 +236,8 @@
     "10": {
       "pool": [
         {
-          "rewardPool": "common",
           "value": {
+
             "value": "the_vault:ore_larimar",
             "amount": {
               "min": 8,
@@ -226,13 +245,14 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "common"
           },
           "weight": 20
         },
         {
-          "rewardPool": "common",
           "value": {
+
             "value": "the_vault:ore_benitoite",
             "amount": {
               "min": 8,
@@ -240,13 +260,14 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "common"
           },
           "weight": 12
         },
         {
-          "rewardPool": "common",
           "value": {
+
             "value": "the_vault:ore_painite",
             "amount": {
               "min": 8,
@@ -254,13 +275,14 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "common"
           },
           "weight": 10
         },
         {
-          "rewardPool": "common",
           "value": {
+
             "value": "the_vault:ore_wutodie",
             "amount": {
               "min": 8,
@@ -268,12 +290,27 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "common"
           },
           "weight": 10
         },
         {
-          "rewardPool": "rare",
+          "value": {
+
+            "value": "the_vault:ore_alexandrite",
+            "amount": {
+              "min": 8,
+              "max": 10
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true,
+            "rewardPool": "common"
+          },
+          "weight": 10
+        },
+        {
           "value": {
             "value": "the_vault:ore_black_opal",
             "amount": {
@@ -282,147 +319,148 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 6
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_iskallium",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_gorginite",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_sparkletine",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_ashium",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_bomignite",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_tubium",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_upaline",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_petzanite",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_xenium",
             "amount": {
               "min": 1,
-              "max": 4
+              "max": 3
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_echo",
             "amount": {
               "min": 1,
-              "max": 2
+              "max": 1
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 1
         }
@@ -431,8 +469,8 @@
     "30": {
       "pool": [
         {
-          "rewardPool": "common",
           "value": {
+
             "value": "the_vault:ore_larimar",
             "amount": {
               "min": 16,
@@ -440,13 +478,14 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "common"
           },
           "weight": 20
         },
         {
-          "rewardPool": "common",
           "value": {
+
             "value": "the_vault:ore_benitoite",
             "amount": {
               "min": 16,
@@ -454,13 +493,14 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "common"
           },
           "weight": 12
         },
         {
-          "rewardPool": "common",
           "value": {
+
             "value": "the_vault:ore_painite",
             "amount": {
               "min": 16,
@@ -468,13 +508,14 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "common"
           },
           "weight": 10
         },
         {
-          "rewardPool": "common",
           "value": {
+
             "value": "the_vault:ore_wutodie",
             "amount": {
               "min": 16,
@@ -482,12 +523,27 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "common"
           },
           "weight": 10
         },
         {
-          "rewardPool": "rare",
+          "value": {
+
+            "value": "the_vault:ore_alexandrite",
+            "amount": {
+              "min": 12,
+              "max": 24
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true,
+            "rewardPool": "common"
+          },
+          "weight": 10
+        },
+        {
           "value": {
             "value": "the_vault:ore_black_opal",
             "amount": {
@@ -496,147 +552,154 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 6
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_iskallium",
             "amount": {
-              "min": 3,
-              "max": 6
+              "min": 2,
+              "max": 5
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_gorginite",
             "amount": {
-              "min": 3,
-              "max": 6
+              "min": 2,
+              "max": 5
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_sparkletine",
             "amount": {
-              "min": 3,
-              "max": 6
+              "min": 2,
+              "max": 5
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
+
             "value": "the_vault:ore_ashium",
             "amount": {
-              "min": 3,
-              "max": 6
+              "min": 2,
+              "max": 5
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
             "value": "the_vault:ore_bomignite",
             "amount": {
-              "min": 3,
-              "max": 6
+              "min": 2,
+              "max": 5
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
+
             "value": "the_vault:ore_tubium",
             "amount": {
-              "min": 3,
-              "max": 6
+              "min": 2,
+              "max": 5
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
+
             "value": "the_vault:ore_upaline",
             "amount": {
-              "min": 3,
-              "max": 6
+              "min": 2,
+              "max": 5
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
+
             "value": "the_vault:ore_petzanite",
             "amount": {
-              "min": 3,
-              "max": 6
+              "min": 2,
+              "max": 5
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
+
             "value": "the_vault:ore_xenium",
             "amount": {
-              "min": 3,
-              "max": 6
+              "min": 2,
+              "max": 5
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 2
         },
         {
-          "rewardPool": "rare",
           "value": {
+
             "value": "the_vault:ore_echo",
             "amount": {
-              "min": 2,
-              "max": 3
+              "min": 1,
+              "max": 2
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
           "weight": 1
         }
@@ -645,8 +708,8 @@
     "50": {
       "pool": [
         {
-          "rewardPool": "common",
           "value": {
+
             "value": "the_vault:ore_larimar",
             "amount": {
               "min": 24,
@@ -654,13 +717,14 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "common"
           },
-          "weight": 20
+          "weight": 30
         },
         {
-          "rewardPool": "common",
           "value": {
+
             "value": "the_vault:ore_benitoite",
             "amount": {
               "min": 20,
@@ -668,13 +732,14 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "common"
           },
-          "weight": 12
+          "weight": 24
         },
         {
-          "rewardPool": "common",
           "value": {
+
             "value": "the_vault:ore_painite",
             "amount": {
               "min": 24,
@@ -682,13 +747,14 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "common"
           },
-          "weight": 10
+          "weight": 20
         },
         {
-          "rewardPool": "common",
           "value": {
+
             "value": "the_vault:ore_wutodie",
             "amount": {
               "min": 22,
@@ -696,13 +762,29 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "common"
           },
-          "weight": 10
+          "weight": 20
         },
         {
-          "rewardPool": "rare",
           "value": {
+
+            "value": "the_vault:ore_alexandrite",
+            "amount": {
+              "min": 16,
+              "max": 24
+            },
+            "floorToNearestTen": false,
+            "validDimensions": [],
+            "vaultOnly": true,
+            "rewardPool": "common"
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+
             "value": "the_vault:ore_black_opal",
             "amount": {
               "min": 10,
@@ -710,139 +792,149 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
-          "weight": 6
+          "weight": 12
         },
         {
-          "rewardPool": "rare",
           "value": {
+
             "value": "the_vault:ore_iskallium",
             "amount": {
-              "min": 5,
-              "max": 12
+              "min": 4,
+              "max": 6
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
-          "weight": 2
+          "weight": 4
         },
         {
-          "rewardPool": "rare",
           "value": {
+
             "value": "the_vault:ore_gorginite",
             "amount": {
-              "min": 5,
-              "max": 12
+              "min": 4,
+              "max": 6
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
-          "weight": 2
+          "weight": 4
         },
         {
-          "rewardPool": "rare",
           "value": {
+
             "value": "the_vault:ore_sparkletine",
             "amount": {
-              "min": 5,
-              "max": 12
+              "min": 4,
+              "max": 6
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
-          "weight": 2
+          "weight": 4
         },
         {
-          "rewardPool": "rare",
           "value": {
+
             "value": "the_vault:ore_ashium",
             "amount": {
-              "min": 5,
-              "max": 12
+              "min": 4,
+              "max": 6
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
-          "weight": 2
+          "weight": 4
         },
         {
-          "rewardPool": "rare",
           "value": {
+
             "value": "the_vault:ore_bomignite",
             "amount": {
-              "min": 5,
-              "max": 12
+              "min": 4,
+              "max": 6
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
-          "weight": 2
+          "weight": 4
         },
         {
-          "rewardPool": "rare",
           "value": {
+
             "value": "the_vault:ore_tubium",
             "amount": {
-              "min": 5,
-              "max": 12
+              "min": 4,
+              "max": 6
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
-          "weight": 2
+          "weight": 4
         },
         {
-          "rewardPool": "rare",
           "value": {
+
             "value": "the_vault:ore_upaline",
             "amount": {
-              "min": 5,
-              "max": 12
+              "min": 4,
+              "max": 6
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
-          "weight": 2
+          "weight": 4
         },
         {
-          "rewardPool": "rare",
           "value": {
+
             "value": "the_vault:ore_petzanite",
             "amount": {
-              "min": 5,
-              "max": 12
+              "min": 4,
+              "max": 6
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
-          "weight": 2
+          "weight": 4
         },
         {
-          "rewardPool": "rare",
           "value": {
+
             "value": "the_vault:ore_xenium",
             "amount": {
-              "min": 5,
-              "max": 12
+              "min": 4,
+              "max": 6
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
-          "weight": 2
+          "weight": 4
         },
         {
-          "rewardPool": "rare",
           "value": {
+
             "value": "the_vault:ore_echo",
             "amount": {
               "min": 2,
@@ -850,9 +942,10 @@
             },
             "floorToNearestTen": false,
             "validDimensions": [],
-            "vaultOnly": true
+            "vaultOnly": true,
+            "rewardPool": "rare"
           },
-          "weight": 1
+          "weight": 2
         }
       ]
     }

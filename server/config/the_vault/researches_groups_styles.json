@@ -79,6 +79,16 @@
       "boxWidth": 170,
       "boxHeight": 105,
       "icon": "the_vault:gui/research_groups/looting"
+    },
+    "Alchemy": {
+      "group": "Alchemy",
+      "headerColor": -14336,
+      "headerTextColor": -1,
+      "x": 370,
+      "y": 215,
+      "boxWidth": 170,
+      "boxHeight": 105,
+      "icon": "the_vault:gui/research_groups/bottle"
     }
   }
 }

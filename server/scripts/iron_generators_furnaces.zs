@@ -3,6 +3,8 @@ for Iskall85's Vaulthunters */
 
 // adding recipes
 
+<tag:items:forge:generators>.add([<item:irongenerators:stone_generator>, <item:irongenerators:iron_generator>, <item:irongenerators:copper_generator>, <item:irongenerators:gold_generator>, <item:irongenerators:diamond_generator>, <item:irongenerators:netherite_generator>]);
+
 craftingTable.addShaped("irongenerators_stone_generator", <item:irongenerators:stone_generator>, [
     [<item:the_vault:polished_vault_stone>, <item:the_vault:gem_larimar>, <item:the_vault:polished_vault_stone>],
     [<item:the_vault:gem_larimar>, <tag:items:forge:furnaces>, <item:the_vault:gem_larimar>],
@@ -11,31 +13,31 @@ craftingTable.addShaped("irongenerators_stone_generator", <item:irongenerators:s
 
 craftingTable.addShaped("irongenerators_irongenerator", <item:irongenerators:iron_generator>, [
     [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:chromatic_iron_ingot>],
-    [<item:the_vault:chromatic_iron_ingot>, <item:irongenerators:stone_generator>, <item:the_vault:chromatic_iron_ingot>],
+    [<item:the_vault:chromatic_iron_ingot>, <tag:items:forge:generators>, <item:the_vault:chromatic_iron_ingot>],
     [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 
 craftingTable.addShaped("irongenerators_copper_generator", <item:irongenerators:copper_generator>, [
     [<item:the_vault:chromatic_steel_ingot>, <tag:items:forge:storage_blocks/copper>, <item:the_vault:chromatic_steel_ingot>],
-    [<tag:items:forge:storage_blocks/copper>, <item:irongenerators:stone_generator>, <tag:items:forge:storage_blocks/copper>],
+    [<tag:items:forge:storage_blocks/copper>, <tag:items:forge:generators>, <tag:items:forge:storage_blocks/copper>],
     [<item:the_vault:chromatic_steel_ingot>, <tag:items:forge:storage_blocks/copper>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
 craftingTable.addShaped("irongenerators_gold_generator", <item:irongenerators:gold_generator>, [
     [<item:the_vault:chromatic_steel_ingot>, <item:minecraft:gold_block>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:minecraft:gold_block>, <item:irongenerators:stone_generator>, <item:minecraft:gold_block>],
+    [<item:minecraft:gold_block>, <tag:items:forge:generators>, <item:minecraft:gold_block>],
     [<item:the_vault:chromatic_steel_ingot>, <item:minecraft:gold_block>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
 craftingTable.addShaped("irongenerators_diamond_generator", <item:irongenerators:diamond_generator>, [
     [<item:the_vault:chromatic_steel_ingot>, <item:minecraft:diamond_block>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:minecraft:diamond_block>, <item:irongenerators:stone_generator>, <item:minecraft:diamond_block>],
+    [<item:minecraft:diamond_block>, <tag:items:forge:generators>, <item:minecraft:diamond_block>],
     [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_diamond_block>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
 craftingTable.addShaped("irongenerators_netherite_generator", <item:irongenerators:netherite_generator>, [
     [<item:minecraft:netherite_block>, <item:irongenerators:diamond_generator>, <item:minecraft:netherite_block>],
-    [<item:irongenerators:diamond_generator>, <item:irongenerators:stone_generator>, <item:irongenerators:diamond_generator>],
+    [<item:irongenerators:diamond_generator>, <tag:items:forge:generators>, <item:irongenerators:diamond_generator>],
     [<item:minecraft:netherite_block>, <item:the_vault:black_chromatic_steel_block>, <item:minecraft:netherite_block>]
 ]);
 

@@ -44,6 +44,75 @@
             "max": 1,
             "pool": [
               {
+                "value": "the_vault:beginners_insurance",
+                "weight": 1
+              }
+            ]
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:gilded",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:living",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:ornate",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:coin_pile",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:dummy",
+                "weight": 20
+              }
+            ]
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:item_quantity",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:item_rarity",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:dummy",
+                "weight": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "entries": [
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:beginners_grace",
+                "weight": 1000
+              }
+            ]
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
                 "value": "the_vault:gilded",
                 "weight": 1
               },
@@ -86,6 +155,104 @@
         ]
       },
       { "level": 20,
+        "entries": [
+          {
+            "min": 4,
+            "max": 4,
+            "pool": [
+              {
+                "value": "the_vault:gilded",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:living",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:ornate",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:coin_pile",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:dummy",
+                "weight": 36
+              }
+            ]
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:prosperous",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:dummy",
+                "weight": 30
+              }
+            ]
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "pool": [
+              {
+                "value": "the_vault:item_quantity",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:item_rarity",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:plentiful",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:dummy",
+                "weight": 18
+              }
+            ]
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "pool": [
+              {
+                "value": "the_vault:trapped",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:chunky_mobs",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:dummy",
+                "weight": 18
+              }
+            ]
+          },
+          {
+            "min": 4,
+            "max": 4,
+            "pool": [
+              {
+                "value": "the_vault:xp_gain",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:dummy",
+                "weight": 36
+              }
+            ]
+          }
+        ]
+      },
+      { "level": 24,
         "entries": [
           {
             "min": 4,
@@ -729,6 +896,23 @@
         ]
       }
     ],
+    "the_vault:healing_penalty": [
+      {
+        "level": 0,
+        "entries": [
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:antiheal",
+                "weight": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
     "the_vault:soul_flame_curse": [
       {
         "level": 0,
@@ -1158,26 +1342,34 @@
         "entries": [
           {
             "min": 30,
-            "max": 30,
+            "max": 50,
             "pool": [
               {
                 "value": "the_vault:wild",
-                "weight": 6
+                "weight": 8
               },
               {
                 "value": "the_vault:furious_mobs",
-                "weight": 4
+                "weight": 8
               },
               {
                 "value": "the_vault:chunky_mobs",
-                "weight": 6
+                "weight": 8
               },
               {
                 "value": "the_vault:trapped",
-                "weight": 4
+                "weight": 8
+              },
+              {
+                "value": "the_vault:infuriated_mobs",
+                "weight": 8
               },
               {
                 "value": "the_vault:gilded",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:gilded_cascade",
                 "weight": 4
               },
               {
@@ -1185,7 +1377,15 @@
                 "weight": 4
               },
               {
+                "value": "the_vault:ornate_cascade",
+                "weight": 4
+              },
+              {
                 "value": "the_vault:living",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:living_cascade",
                 "weight": 4
               },
               {
@@ -1194,28 +1394,21 @@
               },
               {
                 "value": "the_vault:item_quantity",
-                "weight": 2
+                "weight": 4
               },
               {
                 "value": "the_vault:item_rarity",
-                "weight": 2
+                "weight": 4
               },
               {
                 "value": "the_vault:xp_gain",
                 "weight": 2
               },
               {
-                "value": "the_vault:frail",
-                "weight": 3
-              },
-              {
                 "value": "the_vault:haunted",
-                "weight": 3
-              },
-              {
-                "value": "the_vault:infuriated_mobs",
-                "weight": 3
+                "weight": 4
               }
+              
             ]
           }
         ]

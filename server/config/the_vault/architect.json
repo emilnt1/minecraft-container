@@ -2,8 +2,10 @@
   "whitelist": [
     "minecraft:water",
     "minecraft:lava",
+    "minecraft:bedrock",
     "the_vault:void_liquid",
     "the_vault:vault_portal",
+    "the_vault:vault_glass",
     "minecraft:light",
     "minecraft:command_block",
     "minecraft:repeating_command_block",

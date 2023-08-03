@@ -166,6 +166,57 @@
                     }
                 }
             ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ rarity:rare }": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ group:tank }": 0,
+                        "ispawner:spawner{ group:assassin }": 0,
+                        "ispawner:spawner{ group:horde }": 2,
+                        "ispawner:spawner{ group:standard }": 6
+                    }
+                },
+                {
+                    "level": 20,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ group:tank }": 1,
+                        "ispawner:spawner{ group:assassin }": 1,
+                        "ispawner:spawner{ group:horde }": 5,
+                        "ispawner:spawner{ group:standard }": 7
+                    }
+                },
+                {
+                    "level": 35,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ group:tank }": 3,
+                        "ispawner:spawner{ group:assassin }": 2,
+                        "ispawner:spawner{ group:horde }": 8,
+                        "ispawner:spawner{ group:standard }": 7
+                    }
+                }
+            ]
         }
     ]
 }

@@ -4,152 +4,201 @@
       "x": 0,
       "y": 0,
       "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/speed"
+      "icon": "the_vault:gui/skills/speed"
     },
     "Haste": {
       "x": 70,
       "y": 0,
       "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/haste"
+      "icon": "the_vault:gui/skills/haste"
     },
     "Strength": {
       "x": 140,
       "y": 0,
       "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/strength"
+      "icon": "the_vault:gui/skills/strength"
     },
-    "Critical Strike": {
+    "Stoneskin": {
       "x": 210,
       "y": 0,
       "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/critical_strike"
+      "icon": "the_vault:gui/skills/stone_skin"
     },
-    
-    "Unbreakable": {
-      "x": 350,
-      "y": 0,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/unbreakable"
-    },
-    "Stone Skin": {
-      "x": 420,
-      "y": 0,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/stone_skin"
-    },
-    "Thorns Chance": {
+    "Last_Stand": {
       "x": 0,
-      "y": 70,
+      "y": 50,
       "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/thorns_chance"
-    },
-    "Thorns Damage": {
-      "x": 70,
-      "y": 70,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/thorns_damage"
-    },
-    "Bartering": {
-      "x": 140,
-      "y": 70,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/bartering"
-    },
-    "Angel": {
-      "x": 210,
-      "y": 70,
-      "frameType": "STAR",
-      "icon": "the_vault:gui/talents/angel"
-    },
-    "Blacksmith": {
-      "x": 280,
-      "y": 70,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/blacksmithing"
-    },
-    "Fatal Strike Chance": {
-      "x": 350,
-      "y": 70,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/fatal_strike_chance"
-    },
-    "Fatal Strike Damage": {
-      "x": 420,
-      "y": 70,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/fatal_strike_chance"
-    },
-    "Last Stand": {
-      "x": 0,
-      "y": 140,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/last_stand"
+      "icon": "the_vault:gui/skills/last_stand"
     },
     "Berserking": {
       "x": 70,
-      "y": 140,
+      "y": 50,
       "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/berserking"
-    },
-    "Experienced": {
-      "x": 140,
-      "y": 140,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/experienced"
-    },
-    "Lucky Altar": {
-      "x": 210,
-      "y": 140,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/lucky_altar"
-    },
-    "Weakness Affinity": {
-      "x": 280,
-      "y": 140,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/weakness_affinity"
-    },
-    "Slowness Affinity": {
-      "x": 350,
-      "y": 140,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/slowness_affinity"
-    },
-    "Wither Affinity": {
-      "x": 420,
-      "y": 140,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/wither_affinity"
-    },
-    "Arthropod Mastery": {
-      "x": 140,
-      "y": 210,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/arthropod_mastery"
-    },
-    "Undead Mastery": {
-      "x": 210,
-      "y": 210,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/undead_mastery"
-    },
-    "Illager Mastery": {
-      "x": 280,
-      "y": 210,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/illager_mastery"
+      "icon": "the_vault:gui/skills/berserking"
     },
     "Methodical": {
       "x": 0,
-      "y": 210,
+      "y": 100,
       "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/methodical"
+      "icon": "the_vault:gui/skills/methodical"
     },
     "Depleted": {
       "x": 70,
-      "y": 210,
+      "y": 100,
       "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/talents/depleted"
+      "icon": "the_vault:gui/skills/depleted"
+    },
+    "Prudent": {
+      "x": 140,
+      "y": 100,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/potion_amount"
+    },
+    "Alchemist": {
+      "x": 210,
+      "y": 100,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/potion_time"
+    },
+
+    "Sorcery": {
+      "x": 140,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/sorcery"
+    },
+    "Witchery": {
+      "x": 210,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/witchery"
+    },
+
+    "Nucleus": {
+      "x": 280,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/nucleus"
+    },
+    "Daze": {
+      "x": 350,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/dazed"
+    },
+   
+    
+    "Blizzard": {
+      "x": 280,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/blizzard"
+    },
+    "Frostbite": {
+      "x": 350,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/frostbite"
+    },
+
+    "Blight": {
+      "x": 280,
+      "y": 100,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/blight"
+    },
+    "Toxic_Reaction": {
+      "x": 350,
+      "y": 100,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/toxic_reaction"
+    },
+
+    "Lucky_Hit": {
+      "x": 140,
+      "y": 170
+    },
+    "Fatal_Strike": {
+      "x": 0,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/fatal_strike_damage"
+    },
+    "Mana_Steal": {
+      "x": 70,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/mana_steal"
+    },
+    "Life_Steal": {
+      "x": 0,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/life_steal"
+    },
+    "Cleave": {
+      "x": 70,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/cleave"
+    },
+    
+    "Masteries": {
+      "x": 0,
+      "y": 170
+    },
+    "Arthropod_Mastery": {
+      "x": 0,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/arthropod_mastery"
+    },
+    "Undead_Mastery": {
+      "x": 70,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/undead_mastery"
+    },
+    "Illager_Mastery": {
+      "x": 0,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/illager_mastery"
+    },
+    "Nether_Mastery": {
+      "x": 70,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/nether_mastery"
+    },
+
+    "Javelin": {
+      "x": 280,
+      "y": 170
+    },
+    "Javelin_Throw_Power": {
+      "x": 0,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/javelin_throw_power"
+    },
+    "Javelin_Damage": {
+      "x": 70,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/javelin_damage"
+    },
+    "Javelin_Conduct": {
+      "x": 0,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/javelin_conduct"
+    },
+    "Javelin_Frugal": {
+      "x": 70,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/javelin_ethereal"
     }
   }
 }

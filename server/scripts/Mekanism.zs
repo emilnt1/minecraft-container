@@ -8,6 +8,7 @@ import mods.mekanism.api.ingredient.ChemicalStackIngredient.GasStackIngredient;
 import mods.mekanism.api.ingredient.ChemicalStackIngredient.SlurryStackIngredient;
 import mods.mekanism.api.ingredient.FluidStackIngredient;
 import mods.mekanism.api.ingredient.ItemStackIngredient;
+import mods.mekanism.recipe.Combining;
 
 <recipetype:mekanism:crushing>.addRecipe("crush_vaultstone_to_rock", ItemStackIngredient.from(<item:the_vault:vault_stone> *2), <item:the_vault:chipped_vault_rock>);
 
@@ -145,6 +146,12 @@ craftingTable.addShaped("mekanism_upgrade_gas", <item:mekanism:upgrade_gas> *2, 
     [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>]
 ]);
 
+craftingTable.addShaped("mekanism_upgrade_stone_generator", <item:mekanism:upgrade_stone_generator> *1, [
+    [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>],
+    [<item:mekanism:alloy_infused>, <item:compressium:cobblestone_1>, <item:mekanism:alloy_infused>],
+    [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>]
+]);
+
 craftingTable.addShaped("mekanism_energy_tablet", <item:mekanism:energy_tablet>, [
     [<item:minecraft:redstone_block>, <tag:items:forge:storage_blocks/gold>, <item:minecraft:redstone_block>],
     [<item:mekanism:alloy_infused>, <tag:items:forge:storage_blocks/gold>, <item:mekanism:alloy_infused>],
@@ -180,3 +187,5 @@ craftingTable.addShaped("mekanismgenerators_generatorgas_burning", <item:mekanis
     [<item:mekanism:steel_casing>, <item:mekanism:electrolytic_core>, <item:mekanism:steel_casing>], 
     [<item:the_vault:gem_pog>, <tag:items:mekanism:alloys/infused>, <item:the_vault:gem_pog>]
 ]);
+
+<recipetype:mekanism:crushing>.addRecipe("buildinggadgets_block_to_paste_mekanism", ItemStackIngredient.from(<item:buildinggadgets:construction_block_dense>), <item:buildinggadgets:construction_paste> * 4);

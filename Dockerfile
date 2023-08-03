@@ -29,10 +29,10 @@ EXPOSE 25565/tcp
 
 CMD ["/launch.sh"]
 
-ENV EULA "false"
+ENV EULA "true"
 
 # defaults
-# ENV LEVEL "Vault-Hunters" 
+# ENV LEVEL "Vault-Hunters"
 # ENV MOTD "Vault Hunters 3rd Edition Powered by Docker"
 # ENV GAMEMODE "survival"
 # ENV DIFFICULTY "normal"

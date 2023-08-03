@@ -14,10 +14,13 @@
 [recipes]
 	#.
 	#Allow the Mechanical Press to process entire stacks at a time.
-	bulkPressing = false
+	bulkPressing = true
 	#.
 	#Allow the Mechanical Saw to process entire stacks at a time.
-	bulkCutting = false
+	bulkCutting = true
+	#.
+	#Allow supported potions to be brewed by a Mechanical Mixer + Basin.
+	allowBrewingInMixer = true
 	#.
 	#Allow any shapeless crafting recipes to be processed by a Mechanical Mixer + Basin.
 	allowShapelessInMixer = false
@@ -27,6 +30,10 @@
 	#.
 	#Allow any standard crafting recipes to be processed by Mechanical Crafters.
 	allowRegularCraftingInCrafter = true
+	#.
+	#The Maximum amount of ingredients that can be used to craft Firework Rockets using Mechanical Crafters.
+	#Range: > 1
+	maxFireworkIngredientsInCrafter = 9
 	#.
 	#Allow any stonecutting recipes to be processed by a Mechanical Saw.
 	allowStonecuttingOnSaw = true
@@ -49,13 +56,6 @@
 	#.
 	#Allow the standard in-world Shadow Steel recipe.
 	enableShadowSteelRecipe = true
-	#.
-	#Allow supported potions to be brewed by a Mechanical Mixer + Basin.
-	allowBrewingInMixer = true
-	#.
-	#The Maximum amount of ingredients that can be used to craft Firework Rockets using Mechanical Crafters.
-	#Range: > 1
-	maxFireworkIngredientsInCrafter = 9
 
 #.
 #Parameters and abilities of Create's kinetic mechanisms
@@ -154,6 +154,13 @@
 		#Range: > 1
 		maxBlocksMoved = 2048
 		#.
+		#[in Bytes]
+		#[0 to disable this limit]
+		#Maximum amount of data a contraption can have before it can't be synced with players.
+		#Un-synced contraptions will not be visible and will not have collision.
+		#Range: > 0
+		maxDataSize = 2000000
+		#.
 		#Maximum value of a chassis attachment range.
 		#Range: > 1
 		maxChassisRange = 16
@@ -169,6 +176,9 @@
 		#Maximum allowed distance of two coupled minecarts.
 		#Range: > 1
 		maxCartCouplingLength = 32
+		#.
+		#Whether minecart contraptions can be picked up in survival mode.
+		survivalContraptionPickup = true
 		#.
 		#Configure how Spawner blocks can be moved by contraptions.
 		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
@@ -190,9 +200,6 @@
 		#.
 		#Whether harvesters should replant crops after harvesting.
 		harvesterReplants = true
-		#.
-		#Whether minecart contraptions can be picked up in survival mode.
-		survivalContraptionPickup = true
 
 	[kinetics.stressValues]
 
@@ -458,6 +465,10 @@
 	#Whether moving Trains can hurt colliding mobs and players.
 	trainsCauseDamage = true
 	#.
+	#Maximum length of track that can be placed as one batch or turn.
+	#Range: 16 ~ 128
+	maxTrackPlacementLength = 128
+	#.
 	#Maximum length of a Train Stations' assembly track.
 	#Range: > 5
 	maxAssemblyLength = 128
@@ -477,17 +488,17 @@
 		#[in Blocks/Second]
 		#The top speed of any assembled Train.
 		#Range: 0.0 ~ 3.4028234663852886E38
-		trainTopSpeed = 28.0
+		trainTopSpeed = 46.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of Trains during a turn.
 		#Range: 0.0 ~ 3.4028234663852886E38
-		trainTurningTopSpeed = 14.0
+		trainTurningTopSpeed = 22.0
 		#.
 		#[in Blocks/Second²]
 		#The acceleration of any assembled Train.
 		#Range: 0.0 ~ 3.4028234663852886E38
-		trainAcceleration = 3.0
+		trainAcceleration = 4.0
 
 	#.
 	#Powered Trains
@@ -496,15 +507,15 @@
 		#[in Blocks/Second]
 		#The top speed of powered Trains.
 		#Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainTopSpeed = 40.0
+		poweredTrainTopSpeed = 80.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of powered Trains during a turn.
 		#Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainTurningTopSpeed = 20.0
+		poweredTrainTurningTopSpeed = 32.0
 		#.
 		#[in Blocks/Second²]
 		#The acceleration of powered Trains.
 		#Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainAcceleration = 3.0
+		poweredTrainAcceleration = 3.1
 

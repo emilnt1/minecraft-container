@@ -1,6 +1,14 @@
 {
     "tile_processors": [
         {
+            "type": "reference",
+            "id": "the_vault:generic/spawners/challenge_mobs"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:generic/spawners/generic_settings"
+        },
+        {
             "type": "leveled",
             "levels": [
                 {

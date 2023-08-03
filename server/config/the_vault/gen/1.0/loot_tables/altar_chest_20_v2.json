@@ -157,7 +157,9 @@
                 "weight": 1,
                 "item": {
                   "id": "the_vault:idol_benevolent",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"altar\"}",
+                  "nbt": {
+                    "the_vault:gear_roll_type_pool": "altar"
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,
@@ -169,7 +171,9 @@
                 "weight": 1,
                 "item": {
                   "id": "the_vault:idol_omniscient",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"altar\"}",
+                  "nbt": {
+                    "the_vault:gear_roll_type_pool": "altar"
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,
@@ -181,7 +185,9 @@
                 "weight": 1,
                 "item": {
                   "id": "the_vault:idol_timekeeper",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"altar\"}",
+                  "nbt": {
+                    "the_vault:gear_roll_type_pool": "altar"
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,
@@ -193,7 +199,9 @@
                 "weight": 1,
                 "item": {
                   "id": "the_vault:idol_malevolence",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"altar\"}",
+                  "nbt": {
+                    "the_vault:gear_roll_type_pool": "altar"
+                  },
                   "count": {
                     "type": "uniform",
                     "min": 1,

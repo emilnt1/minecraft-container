@@ -64,7 +64,8 @@
     "the_vault:treasure_chest": {
       "display": "Treasure Chests",
       "lootTableKeys": {
-        "the_vault:treasure_chest_lvl0": {"level": 0}
+        "the_vault:treasure_chest_lvl0": {"level": 0},
+        "the_vault:treasure_chest_lvl50": {"level": 50}
       }
     },
     "the_vault:completion_crate": {
@@ -98,6 +99,27 @@
         "the_vault:gilded_chest_lvl11_v2": {"level": 11},
         "the_vault:gilded_chest_lvl24_v2": {"level": 24},
         "the_vault:gilded_chest_lvl35_v2": {"level": 35}
+      }
+    },
+    "the_vault:gilded_strongbox": {
+      "display": "Gilded Strongboxes",
+      "lootTableKeys": {
+        "the_vault:gilded_strongbox_lvl50_v2": {"level": 50}
+      }
+    },
+    "the_vault:ornate_strongbox": {
+      "display": "Ornate Strongboxes",
+      "lootTableKeys": {
+        "the_vault:ornate_strongbox_lvl50_v2": {"level": 50},
+        "the_vault:ornate_strongbox_lvl65_v2": {"level": 65}
+      }
+    },
+    "the_vault:living_strongbox": {
+      "display": "Living Strongboxes",
+      "lootTableKeys": {
+        "the_vault:living_strongbox_lvl50_v2": {"level": 50},
+        "the_vault:living_strongbox_lvl54_v2": {"level": 54},
+        "the_vault:living_strongbox_lvl75_v2": {"level": 75}
       }
     }
   }

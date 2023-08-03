@@ -20,8 +20,7 @@
           "type": "weighted_target",
           "target": "minecraft:stone",
           "output": {
-            "minecraft:snow_block": 9,
-            "minecraft:powder_snow": 1
+            "minecraft:snow_block": 9
           }
         }
       ]
@@ -58,8 +57,7 @@
           "type": "weighted_target",
           "target": "minecraft:grass_block",
           "output": {
-            "minecraft:snow_block": 39,
-            "minecraft:powder_snow": 1
+            "minecraft:snow_block": 39
           }
         }
       ]
@@ -118,8 +116,7 @@
           "type": "weighted_target",
           "target": "minecraft:purple_wool",
           "output": {
-            "minecraft:snow_block": 9,
-            "minecraft:powder_snow": 1
+            "minecraft:snow_block": 9
           }
         }
       ]
@@ -437,8 +434,7 @@
           "type": "weighted_target",
           "target": "minecraft:mossy_cobblestone",
           "output": {
-            "minecraft:snow_block": 9,
-            "minecraft:powder_snow": 1
+            "minecraft:snow_block": 9
           }
         }
       ]
@@ -655,7 +651,7 @@
     },
     {
         "type": "reference",
-        "id": "the_vault:generic/common_elite_spawners"
+        "id": "the_vault:generic/ice_elite_spawners"
     }
   ],
   "entity_processors": [],

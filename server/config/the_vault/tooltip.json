@@ -1,6 +1,10 @@
 {
   "tooltips": [
     {
+      "item": "minecraft:shield",
+      "value": "Shields automatically block attacks based on their block chance and can not be used to manually block\nThis Vanilla shield has a 5% block chance"
+    },
+    {
       "item": "minecraft:totem_of_undying",
       "value": "Does not function inside a vault!"
     },
@@ -39,14 +43,6 @@
     {
       "item": "the_vault:spicy_hearty_burger",
       "value": "Consume to gain Vault Experience"
-    },
-    {
-      "item": "the_vault:phoenix_feather",
-      "value": "Uber Catalyst\nApply to a crystal to add the Phoenix modifier\nEach feather saves the player from death one time\nCan apply multiple to the same crystal"
-    },
-    {
-      "item": "the_vault:eye_of_avarice",
-      "value": "Uber Catalyst\nApply to a crystal to add the Safe Zone Modifier\nExhausts the crystal"
     },
     {
       "item": "the_vault:vault_burger",
@@ -474,7 +470,7 @@
     },
     {
       "item": "the_vault:vault_gold",
-      "value": "The currency of Vault Hunters\nCan be used to purchase trades from vendors"
+      "value": "The currency of Vault Hunters"
     },
     {
       "item": "the_vault:vault_diamond",
@@ -514,7 +510,7 @@
     },
     {
       "item": "the_vault:vault_platinum",
-      "value": "The currency of Vault Hunters\nCan be used to purchase trades from vendors"
+      "value": "The currency of Vault Hunters"
     },
     {
       "item": "the_vault:mystery_box",
@@ -586,7 +582,7 @@
     },
     {
       "item": "the_vault:omega_pog",
-      "value": "Used as a crafting ingredient for end game creations\nCan also be combined with an artifact in an anvil to re-roll it"
+      "value": "Used as a crafting ingredient for end game creations"
     },
     {
       "item": "the_vault:eternal_soul",
@@ -662,7 +658,7 @@
     },
     {
       "item": "the_vault:vault_silver",
-      "value": "The currency of Vault Hunters\nCan be used to purchase trades from vendors"
+      "value": "The currency of Vault Hunters"
     },
     {
       "item": "the_vault:magnet_core_weak",
@@ -691,10 +687,6 @@
     {
       "item": "the_vault:vault_inhibitor",
       "value": "Combine with a Vault Crystal to remove modifiers"
-    },
-    {
-      "item": "the_vault:soul_flame",
-      "value": "Combine with a Vault Crystal to add the Afterlife modifier\nPreventing loss of items if you die\nSets the experience multiplier to 50%"
     },
     {
       "item": "the_vault:soul_shard",
@@ -730,7 +722,7 @@
     },
     {
       "item": "the_vault:void_liquid_bucket",
-      "value": "Crafting ingredient, found in the depths of an Architect Vault"
+      "value": "Crafting ingredient"
     },
     {
       "item": "the_vault:vaulterite_ingot",
@@ -825,10 +817,6 @@
       "value": "Contains 1 of 4 pieces from the gear vanity set: Cake\nRight-click to open"
     },
     {
-      "item": "the_vault:vault_altar",
-      "value": "Vaultar for short\nPlace a Vault Rock on the altar to start creating a Vault Crystal"
-    },
-    {
       "item": "the_vault:vending_machine",
       "value": "Can host a trader core with the same name several times"
     },
@@ -849,10 +837,6 @@
       "value": "Generates a random resource until it decays"
     },
     {
-      "item": "the_vault:cryo_chamber",
-      "value": "Used to create Eternals\nInsert eternal souls into the cryo-chamber by\nright-clicking the souls on it\nWhen enough eternal souls have been inserted it will generate and\nhost an eternal\n\nRight click to grab the eternal\nto transport it to an Eternal Pedestal"
-    },
-    {
       "item": "the_vault:vault_diamond_block",
       "value": "Crafting ingredient"
     },
@@ -863,6 +847,54 @@
     {
       "item": "the_vault:bounty_pearl",
       "value": "Use in the Bounty Table to reroll available bounties"
+    },
+    {
+      "item": "the_vault:mote_clarity",
+      "value": "Reveals all curses on a Vault Crystal."
+    },
+    {
+      "item": "the_vault:mote_sanctity",
+      "value": "Removes all curses from a Vault Crystal."
+    },
+    {
+      "item": "the_vault:mote_purity",
+      "value": "Removes a random curse from a Vault Crystal."
+    },
+    {
+      "item": "the_vault:mod_box",
+      "value": "Contains a random modded item\nfrom any of your unlocked mods"
+    },
+    {
+      "item": "the_vault:identification_tome",
+      "value": "Hold in the off hand to instantly\nidentify vault gear."
+    },
+    {
+      "item": "the_vault:life_scroll",
+      "value": "Revives an unalived eternal"
+    },
+    {
+      "item": "the_vault:aura_scroll",
+      "value": "Rerolls an eternal's available auras"
+    },
+    {
+      "item": "the_vault:vault_jewel_cutting_station",
+      "value": "Allows Jewels to be cut to decrease their sizes"
+    },
+    {
+      "item": "vaultintegrations:altar_conduit",
+      "value": "Automates the process of completing the Vault Altar"
+    },
+    {
+      "item": "vaultintegrations:speed_enhancement",
+      "value": "Increases the speed of items transported by the Altar Conduit"
+    },
+    {
+      "item": "vaultintegrations:quantity_enhancement",
+      "value": "Increases the quantity of items transported by the Altar Conduit"
+    },
+    {
+      "item": "vaultintegrations:teleport_enhancement",
+      "value": "Teleports items transported by the Altar Conduit"
     }
   ]
 }

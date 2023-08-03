@@ -55,10 +55,22 @@
           }
         },
         {
+          "level": 50,
+          "probability": 1.0,
+          "success": {
+            "the_vault:living_chest{LootTable:\"the_vault:living_chest_lvl41_v2\"}": 19,
+            "the_vault:living_strongbox{LootTable:\"the_vault:living_strongbox_lvl50_v2\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
           "level": 54,
           "probability": 1.0,
           "success": {
-            "the_vault:living_chest{LootTable:\"the_vault:living_chest_lvl54_v2\"}": 1
+            "the_vault:living_chest{LootTable:\"the_vault:living_chest_lvl54_v2\"}": 19,
+            "the_vault:living_strongbox{LootTable:\"the_vault:living_strongbox_lvl54_v2\"}": 1
           },
           "failure": {
             "minecraft:air": 1
@@ -68,7 +80,30 @@
           "level": 75,
           "probability": 1.0,
           "success": {
-            "the_vault:living_chest{LootTable:\"the_vault:living_chest_lvl75_v2\"}": 1
+            "the_vault:living_chest{LootTable:\"the_vault:living_chest_lvl75_v2\"}": 19,
+            "the_vault:living_strongbox{LootTable:\"the_vault:living_strongbox_lvl75_v2\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 80,
+          "probability": 1.0,
+          "success": {
+            "the_vault:living_chest{LootTable:\"the_vault:living_chest_lvl75_v2\"}": 11,
+            "the_vault:living_strongbox{LootTable:\"the_vault:living_strongbox_lvl75_v2\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 100,
+          "probability": 1.0,
+          "success": {
+            "the_vault:living_chest{LootTable:\"the_vault:living_chest_lvl75_v2\"}": 7,
+            "the_vault:living_strongbox{LootTable:\"the_vault:living_strongbox_lvl75_v2\"}": 1
           },
           "failure": {
             "minecraft:air": 1

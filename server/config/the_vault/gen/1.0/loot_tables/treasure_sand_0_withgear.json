@@ -241,7 +241,9 @@
               "weight": 4,
               "item": {
               "id": "the_vault:sword",
-              "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "treasure"
+                },
               "count": {
                 "type": "uniform",
                 "min": 1,
@@ -253,7 +255,9 @@
             "weight": 4,
             "item": {
             "id": "the_vault:axe",
-            "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+              "nbt": {
+                "the_vault:gear_roll_type_pool": "treasure"
+              },
             "count": {
               "type": "uniform",
               "min": 1,
@@ -265,7 +269,9 @@
             "weight": 4,
             "item": {
             "id": "the_vault:helmet",
-            "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+              "nbt": {
+                "the_vault:gear_roll_type_pool": "treasure"
+              },
             "count": {
               "type": "uniform",
               "min": 1,
@@ -277,7 +283,9 @@
             "weight": 4,
             "item": {
             "id": "the_vault:chestplate",
-            "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+              "nbt": {
+                "the_vault:gear_roll_type_pool": "treasure"
+              },
             "count": {
               "type": "uniform",
               "min": 1,
@@ -289,7 +297,9 @@
             "weight": 4,
             "item": {
             "id": "the_vault:leggings",
-            "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+              "nbt": {
+                "the_vault:gear_roll_type_pool": "treasure"
+              },
             "count": {
               "type": "uniform",
               "min": 1,
@@ -301,7 +311,9 @@
             "weight": 4,
             "item": {
             "id": "the_vault:boots",
-            "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+              "nbt": {
+                "the_vault:gear_roll_type_pool": "treasure"
+              },
             "count": {
               "type": "uniform",
               "min": 1,
@@ -313,7 +325,9 @@
             "weight": 4,
             "item": {
             "id": "the_vault:shield",
-            "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+              "nbt": {
+                "the_vault:gear_roll_type_pool": "treasure"
+              },
             "count": {
               "type": "uniform",
               "min": 1,
@@ -325,7 +339,9 @@
             "weight": 1,
             "item": {
             "id": "the_vault:idol_benevolent",
-            "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+              "nbt": {
+                "the_vault:gear_roll_type_pool": "treasure"
+              },
             "count": {
               "type": "uniform",
               "min": 1,
@@ -337,7 +353,9 @@
             "weight": 1,
             "item": {
             "id": "the_vault:idol_omniscient",
-            "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+              "nbt": {
+                "the_vault:gear_roll_type_pool": "treasure"
+              },
             "count": {
               "type": "uniform",
               "min": 1,
@@ -349,7 +367,9 @@
             "weight": 1,
             "item": {
             "id": "the_vault:idol_timekeeper",
-            "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+              "nbt": {
+                "the_vault:gear_roll_type_pool": "treasure"
+              },
             "count": {
               "type": "uniform",
               "min": 1,
@@ -361,7 +381,9 @@
             "weight": 1,
             "item": {
             "id": "the_vault:idol_malevolence",
-            "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}",
+              "nbt": {
+                "the_vault:gear_roll_type_pool": "treasure"
+              },
             "count": {
               "type": "uniform",
               "min": 1,

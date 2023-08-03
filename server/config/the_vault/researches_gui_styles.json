@@ -78,6 +78,12 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/botania"
     },
+    "Botania Flux Field": {
+      "x": 490,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/botania_flux_field"
+    },
     "Mekanism": {
       "x": 250,
       "y": 120,
@@ -125,6 +131,12 @@
       "y": 160,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/vault_compass"
+    },
+    "Altar Automation": {
+      "x": 490,
+      "y": 160,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/conduit"
     },
     "Building Gadgets": {
       "x": 10,
@@ -257,6 +269,24 @@
       "y": 160,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/iron_furnaces"
+    },
+    "Potions": {
+      "x": 390,
+      "y": 240,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/potion"
+    },
+    "Mixtures": {
+      "x": 440,
+      "y": 240,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/mixture"
+    },
+    "Brews": {
+      "x": 490,
+      "y": 240,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/brew"
     }
     
     

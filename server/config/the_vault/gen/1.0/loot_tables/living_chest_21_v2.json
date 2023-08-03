@@ -214,17 +214,6 @@
                     "max": 2
                     }
                 }
-              },
-              {
-                "weight": 8,
-                "item": {
-                  "id": "the_vault:skill_essence",
-                  "count": {
-                    "type": "uniform",
-                    "min": 1,
-                    "max": 1
-                    }
-                }
               }
           ]
           },
